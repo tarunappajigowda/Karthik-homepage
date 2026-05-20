@@ -179,3 +179,45 @@ footer { background: var(--dark); padding: 64px 56px 0; overflow: hidden; }
 .footer-wm { font-weight: 700; font-size: clamp(48px,12vw,150px); color: rgba(255,255,255,0.03); letter-spacing: -3px; line-height: 0.85; white-space: nowrap; pointer-events: none; }
 .footer-bottom { padding: 20px 0; display: flex; justify-content: space-between; border-top: 1px solid var(--border-dark); }
 .fc { font-size: 12px; color: rgba(255,255,255,0.2); }
+
+
+/* ==========================================================================
+   MOBILE LAYOUT (Phones up to 768px wide)
+   ========================================================================== */
+@media screen and (max-width: 768px) {
+  
+  /* Example 1: Force horizontal sections/cards to stack vertically */
+  .reel, 
+  .footer-socials,
+  .fc-links {
+    display: flex;
+    flex-direction: column; /* Stacks items on top of each other */
+    align-items: center;
+    gap: 20px;            /* Adds spacing between stacked items */
+  }
+
+  /* Example 2: Shrink heading sizes so they don't break onto 4 lines */
+  .cta-h, 
+  h2 {
+    font-size: 24px !important;
+    text-align: center;
+    padding: 0 15px;
+  }
+
+  /* Example 3: Adjust padding so content doesn't touch the screen edges */
+  section {
+    padding: 40px 20px !important;
+  }
+}
+
+/* ==========================================================================
+   TABLET LAYOUT (Tablets up to 1024px wide)
+   ========================================================================== */
+@media screen and (max-width: 1024px) and (min-width: 769px) {
+  /* Adjustments specifically for iPad/Tablet sizes if needed */
+  .reel {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Shows 2 cards per row instead of 4 */
+    gap: 15px;
+  }
+}
