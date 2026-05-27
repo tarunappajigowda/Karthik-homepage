@@ -179,3 +179,71 @@ footer { background: var(--dark); padding: 64px 56px 0; overflow: hidden; }
 .footer-wm { font-weight: 700; font-size: clamp(48px,12vw,150px); color: rgba(255,255,255,0.03); letter-spacing: -3px; line-height: 0.85; white-space: nowrap; pointer-events: none; }
 .footer-bottom { padding: 20px 0; display: flex; justify-content: space-between; border-top: 1px solid var(--border-dark); }
 .fc { font-size: 12px; color: rgba(255,255,255,0.2); }
+
+/* ==========================================================================
+   RESPONSIVE MEDIA QUERIES (MOBILE FIXES)
+   ========================================================================== */
+
+@media screen and (max-width: 1024px) {
+  /* Step-down styling rules for tablets & small laptops */
+  .stats { grid-template-columns: repeat(2, 1fr); }
+  .stat { border-bottom: 1px solid var(--border); }
+  .stat:nth-child(2) { border-right: none; }
+  .nc-grid { grid-template-columns: repeat(2, 1fr); }
+  .nc { border-bottom: 1px solid var(--border); }
+  .nc:nth-child(2) { border-right: none; }
+}
+
+@media screen and (max-width: 768px) {
+  /* Global adjustments for mobile layout scaling */
+  nav { padding: 20px 24px; }
+  .nav-links { display: none; } /* Standard solution: Hides complex layouts for mobile burger menus */
+  
+  /* Sections Padding Reduction */
+  .hero-left { padding: 140px 24px 60px 24px; }
+  .about, .ventures, .story, .creator, .cta-banner, .nav-cards, footer { 
+    padding-left: 24px !important; 
+    padding-right: 24px !important; 
+    padding-top: 60px !important;
+    padding-bottom: 60px !important;
+  }
+
+  /* HERO SECTION */
+  .hero { grid-template-columns: 1fr; min-height: auto; }
+  .hero-right { display: none; } /* Hides desktop empty state/image wrapper context if unneeded on mobile */
+  .hero-badges { position: static; margin-top: 32px; flex-direction: row; flex-wrap: wrap; }
+  
+  /* STATS SECTION */
+  .stats { grid-template-columns: 1fr; }
+  .stat { border-right: none !important; padding: 28px 20px; }
+
+  /* ABOUT SECTION (Fixes the overlapping/squished text layout) */
+  .about-grid { grid-template-columns: 1fr; gap: 40px; min-height: auto; }
+  .about-left { padding-right: 0; border-right: none; border-bottom: 1px solid var(--border); padding-bottom: 40px; gap: 24px;}
+  .about-right { padding-left: 0; }
+  .about-body { max-width: 100%; }
+
+  /* VENTURES SECTION */
+  .v-header { flex-direction: column; align-items: flex-start; gap: 16px; }
+  .v-subtitle { text-align: left; max-width: 100%; }
+  .v-grid { grid-template-columns: 1fr; gap: 24px; }
+  .vcard { padding: 32px 24px; }
+
+  /* STORY SECTION */
+  .story-inner { grid-template-columns: 1fr; gap: 40px; }
+  .story-right { padding-top: 0; }
+
+  /* CREATOR SECTION */
+  .creator-top { flex-direction: column; align-items: flex-start; gap: 20px; }
+  .reels { grid-template-columns: 1fr; gap: 24px; }
+  .reel { max-height: 420px; } /* Gives a natural aspect ratio for vertical reels on mobile screen widths */
+
+  /* NAVIGATION LINKS / MATRIX GRID */
+  .nc-grid { grid-template-columns: 1fr; }
+  .nc { border-right: none !important; border-bottom: 1px solid var(--border); }
+  .nc:last-child { border-bottom: none; }
+
+  /* FOOTER SECTION */
+  .footer-top { grid-template-columns: 1fr; gap: 40px; }
+  .footer-bottom { flex-direction: column; gap: 12px; align-items: flex-start; }
+}
