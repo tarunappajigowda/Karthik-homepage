@@ -109,12 +109,38 @@ export default function Home() {
           <div>
             <div className="c-badge"><span>Kannada Content Creator</span></div>
           </div>
-          <a href="#" className="btn-amber">Follow on Instagram →</a>
+          <a href="https://instagram.com/karthikpk.kannada" target="_blank" rel="noopener noreferrer" className="btn-amber">Follow on Instagram →</a>
         </div>
         <div className="reels">
-          <div className="reel"><div className="reel-play"><div className="reel-tri"></div></div><span className="reel-lbl">Business Tips</span></div>
-          <div className="reel"><div className="reel-play"><div className="reel-tri"></div></div><span className="reel-lbl">Founder Life</span></div>
-          <div className="reel"><div className="reel-play"><div className="reel-tri"></div></div><span className="reel-lbl">Kannada Stories</span></div>
+          {/* Reel 1 */}
+          <a href="https://www.instagram.com/reel/DV3dNNzkVBF/?igsh=dHJlcGx4enQ4amJ4" target="_blank" rel="noopener noreferrer" className="reel-link">
+            <div className="reel" style={{ backgroundImage: "url('/images/reel-thumb-1.jpg')" }}>
+              <div className="reel-play">
+                <div className="reel-tri"></div>
+              </div>
+              <span className="reel-lbl">Business Tips</span>
+            </div>
+          </a>
+
+          {/* Reel 2 */}
+          <a href="https://www.instagram.com/reel/DX64tzANQ12/?igsh=MTR6YXZweXEyaHc0ZA==" target="_blank" rel="noopener noreferrer" className="reel-link">
+            <div className="reel" style={{ backgroundImage: "url('/images/reel-thumb-2.jpg')" }}>
+              <div className="reel-play">
+                <div className="reel-tri"></div>
+              </div>
+              <span className="reel-lbl">Founder Life</span>
+            </div>
+          </a>
+
+          {/* Reel 3 */}
+          <a href="https://www.instagram.com/reel/DWeDNlWCse9/?igsh=azNqYWYzeGRkcndj" target="_blank" rel="noopener noreferrer" className="reel-link">
+            <div className="reel" style={{ backgroundImage: "url('/images/reel-thumb-3.jpg')" }}>
+              <div className="reel-play">
+                <div className="reel-tri"></div>
+              </div>
+              <span className="reel-lbl">Kannada Stories</span>
+            </div>
+          </a>
         </div>
       </section>
 
@@ -135,6 +161,9 @@ export default function Home() {
             <div className="footer-tag">Founder · Creator · Builder</div>
             <div className="footer-socials">
               <div className="footer-socials">
+                <a href="https://www.instagram.com/mr.karthikpk" target="_blank" rel="noopener noreferrer" className="soc">
+                  <FaInstagram size={20} color="#E4405F" /> {/* Official Instagram Pink/Red */}
+                </a>
                 <a href="https://www.linkedin.com/in/karthik-p-k-0a7a15249" target="_blank" rel="noopener noreferrer" className="soc">
                   <FaLinkedin size={20} color="#0A66C2" /> {/* Official LinkedIn Blue */}
                 </a>
