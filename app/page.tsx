@@ -118,7 +118,7 @@ export default function Home() {
               <div className="reel-play">
                 <div className="reel-tri"></div>
               </div>
-              <span className="reel-lbl">Business Tips</span>
+              <span className="reel-lbl">About Hajmola</span>
             </div>
           </a>
 
@@ -128,7 +128,7 @@ export default function Home() {
               <div className="reel-play">
                 <div className="reel-tri"></div>
               </div>
-              <span className="reel-lbl">Founder Life</span>
+              <span className="reel-lbl">Top 10 oldest Companies of India</span>
             </div>
           </a>
 
@@ -138,7 +138,7 @@ export default function Home() {
               <div className="reel-play">
                 <div className="reel-tri"></div>
               </div>
-              <span className="reel-lbl">Kannada Stories</span>
+              <span className="reel-lbl">About JCB</span>
             </div>
           </a>
         </div>
