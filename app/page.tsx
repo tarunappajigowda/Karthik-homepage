@@ -17,7 +17,7 @@ export default function Home() {
 
       <section className="hero">
         <div className="hero-left">
-          <h1 className="hero-h1">Building Brands.<br />Creating Impact.<br />Telling Stories.</h1>
+          <h1 className="hero-h1">Karthik P K - Founder of Allofficials and Fumet</h1>
           <p className="hero-desc">Founder of AllOfficials & Fumet. Creating content for Kannada-speaking community. Turning ideas into ventures that serve real people.</p>
           <div className="hero-btns">
             <a href="#" className="btn-solid">Explore My Ventures →</a>
@@ -53,7 +53,7 @@ export default function Home() {
       <section className="about">
         <div className="about-grid">
           <div className="about-left">
-            <div className="about-top-left">About Me</div>
+            <div className="about-top-left"><h2>About Karthik P K</h2></div>
             <p className="about-body">I'm the founder of AllOfficials and Fumet — building brands that serve real people. As a Kannada content creator, I believe every great business starts with an authentic story.</p>
             <a href="#" className="about-cta">More About Me →</a>
           </div>
@@ -66,18 +66,18 @@ export default function Home() {
 
       <section className="ventures">
         <div className="v-header">
-          <div><div className="v-tag">My Ventures</div><div className="v-title">The Brands I Built</div></div>
+          <div><div className="v-tag">My Ventures</div><div className="v-title"><h2>Brands Founded by Karthik P K</h2></div></div>
           <p className="v-subtitle">Two live brands. Real users. Real impact. Still growing.</p>
         </div>
         <div className="v-grid">
           <div className="vcard">
-            <div className="vcard-top"><span className="vcard-name">AllOfficials</span></div>
+            <div className="vcard-top"><h3 className="vcard-name">AllOfficials</h3></div>
             <div className="vcard-img vc-ao">allofficials.in</div>
             <p className="vcard-desc">A sports-tech platform streamlining the recruitment and management of athletic officials globally — forming systems that sports rely on.</p>
             <a href="#" className="vcard-link">Visit Brand →</a>
           </div>
           <div className="vcard">
-            <div className="vcard-top"><span className="vcard-name">Fumet</span></div>
+            <div className="vcard-top"><h3 className="vcard-name">Fumet</h3></div>
             <div className="vcard-img vc-fm">fumet.in</div>
             <p className="vcard-desc">Premium culinary brand focused on authentic flavours and seasonal ingredients — bridging food lovers with modern consumption habits.</p>
             <a href="#" className="vcard-link">Visit Brand →</a>
@@ -89,7 +89,7 @@ export default function Home() {
         <div className="story-inner">
           <div className="story-left">
             <div className="story-tag">My Story</div>
-            <div className="story-quote">"Execution is the only true currency in a world saturated with idle ideas."</div>
+            <div className="story-quote"><h3>The Entrepreneurial Journey of Karthik P K</h3></div>
             <div className="story-photo"><span className="story-photo-ph">Karthik Sir Photo</span></div>
           </div>
           <div className="story-right">
@@ -107,7 +107,7 @@ export default function Home() {
       <section className="creator">
         <div className="creator-top">
           <div>
-            <div className="c-badge"><span>Kannada Content Creator</span></div>
+            <div className="c-badge"><span><h2>Featured Kannada Business Content by Karthik P K</h2></span></div>
           </div>
           <a href="https://instagram.com/karthikpk.kannada" target="_blank" rel="noopener noreferrer" className="btn-amber">Follow on Instagram →</a>
         </div>
