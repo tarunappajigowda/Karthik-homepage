@@ -3,7 +3,7 @@ import { FaLinkedin, FaInstagram } from 'react-icons/fa';
 
 export default function Home() {
   return (
-    <>
+    <div className="page-wrapper">
       <nav>
         <div className="nav-logo">Karthik P K</div>
         <div className="nav-links">
@@ -188,6 +188,6 @@ export default function Home() {
           <span className="fc">karthikpk.com</span>
         </div>
       </footer>
-    </>
+    </div>
   );
 }
