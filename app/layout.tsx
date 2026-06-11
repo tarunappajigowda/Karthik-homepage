@@ -1,23 +1,23 @@
 import './globals.css';
 import React from 'react';
-import Navbar from'../components/Navbar';
-import Footer from '../components/Footer';
+import Navbar from './components/Navbar'; // Changed from '../' to './'
+import Footer from '././components/Footer'; // Changed from '../' to './'
 
-interface RootLayoutProps {
+export const metadata = {
+  title: 'Karthik P K | Founder, Entrepreneur & Kannada Creator',
+  description: 'Official homepage of Karthik P K.',
+};
+
+export default function RootLayout({
+  children,
+}: {
   children: React.ReactNode;
-}
-
-export default function RootLayout({ children }: RootLayoutProps) {
+}) {
   return (
     <html lang="en">
       <body>
-        {/* The Navbar sits globally at the top of every route */}
         <Navbar />
-        
-        {/* Page specific code from your subfolders injects here */}
         <main>{children}</main>
-        
-        {/* The Footer sits globally at the bottom of every route */}
         <Footer />
       </body>
     </html>
