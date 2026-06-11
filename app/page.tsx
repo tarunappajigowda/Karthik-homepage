@@ -16,7 +16,7 @@ export default function Home() {
           </div>
         </div>
         <div className="hero-right">
-          <div className="photo-ph">Karthik Sir — Photo Here</div>
+          <img src="/resources/Karthik_sir_photo_for_website.jpeg" alt="Karthik P K" className="hero-photo" />
           <div className="hero-right-overlay"></div>
           <div className="hero-badges">
           </div>

@@ -30,7 +30,7 @@ export default function Navbar() {
         display: 'flex',
         alignItems: 'center',
         justifyContent: 'space-between',
-        padding: '28px 56px'
+        padding: '28px 12%',
       }}>
         
         <Link href="/" style={{ fontWeight: 700, fontSize: '16px', color: '#fff', textDecoration: 'none', zIndex: 1100 }}>
