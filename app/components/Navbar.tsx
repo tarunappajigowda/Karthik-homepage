@@ -20,18 +20,21 @@ export default function Navbar() {
 
   return (
     <>
+      {/* Changed to fixed position so it glides perfectly along with the page scroll */}
       <nav style={{
-        position: 'absolute',
+        position: 'fixed',
         top: 0,
         left: 0,
         right: 0,
-        zIndex: 100,
+        zIndex: 1000,
         display: 'flex',
         alignItems: 'center',
         justifyContent: 'space-between',
-        padding: '28px 56px'
-      }}>
-        <Link href="/" style={{ fontWeight: 700, fontSize: '16px', color: '#fff', textDecoration: 'none' }}>
+        padding: '28px 56px',
+        transition: 'background-color 0.3s ease'
+      }} className={isOpen ? 'nav-open-bg' : ''}>
+        
+        <Link href="/" style={{ fontWeight: 700, fontSize: '16px', color: '#fff', textDecoration: 'none', zIndex: 1100 }}>
           Karthik P K
         </Link>
 
@@ -45,17 +48,18 @@ export default function Navbar() {
             display: 'none',
             flexDirection: 'column',
             gap: '6px',
-            zIndex: 200,
+            zIndex: 1100,
             padding: '8px'
           }}
           className="mobile-toggle"
+          aria-label="Toggle Menu"
         >
           <span style={{ width: '22px', height: '2px', background: '#fff', transition: '0.2s', transform: isOpen ? 'rotate(45deg) translate(5px, 6px)' : 'none' }}></span>
           <span style={{ width: '22px', height: '2px', background: '#fff', transition: '0.2s', opacity: isOpen ? 0 : 1 }}></span>
           <span style={{ width: '22px', height: '2px', background: '#fff', transition: '0.2s', transform: isOpen ? 'rotate(-45deg) translate(5px, -6px)' : 'none' }}></span>
         </button>
 
-        {/* Nav Links Links */}
+        {/* Links Menu Container */}
         <div className={`nav-menu ${isOpen ? 'active' : ''}`}>
           <Link href="/about" onClick={() => setIsOpen(false)}>About</Link>
           <Link href="/ventures" onClick={() => setIsOpen(false)}>Ventures</Link>
@@ -64,6 +68,9 @@ export default function Navbar() {
           <Link href="/connect" onClick={() => setIsOpen(false)} className="cta-btn">Connect ↗</Link>
         </div>
       </nav>
+
+      {/* Background Overlay Dimmer - Makes the integration feel incredibly professional */}
+      {isOpen && <div className="menu-backdrop" onClick={() => setIsOpen(false)} />}
 
       <style jsx global>{`
         .nav-menu {
@@ -76,7 +83,7 @@ export default function Navbar() {
           font-size: 14px;
           text-decoration: none;
           font-weight: 500;
-          transition: color 0.2s;
+          transition: color 0.2s ease;
         }
         .nav-menu a:hover {
           color: #fff;
@@ -91,32 +98,60 @@ export default function Navbar() {
           font-weight: 600;
         }
 
+        /* Mobile specific layouts */
         @media (max-width: 768px) {
           .mobile-toggle {
             display: flex !important;
           }
+          
+          /* The menu drawer now occupies exactly half-screen widths */
           .nav-menu {
             position: fixed;
             top: 0;
             right: 0;
             bottom: 0;
-            width: 100%;
+            width: 50vw; /* Exact half screen wide */
+            min-width: 290px; /* Prevents text crushing on ultra-small device layers */
             height: 100vh;
             background: #111111;
+            border-left: 1px solid rgba(255, 255, 255, 0.08);
             flex-direction: column;
             justify-content: center;
-            align-items: center;
-            gap: 36px;
-            z-index: 150;
+            align-items: flex-start; /* Professional left-aligned menu structure */
+            gap: 32px;
+            padding: 60px 40px;
+            z-index: 1050;
             transform: translateX(100%);
-            transition: transform 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+            transition: transform 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+            will-change: transform;
           }
+
           .nav-menu.active {
             transform: translateX(0);
           }
+
           .nav-menu a {
-            font-size: 20px;
+            font-size: 18px;
             font-weight: 600;
+            width: 100%;
+          }
+
+          /* Elegant dimming background layer */
+          .menu-backdrop {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100vw;
+            height: 100vh;
+            background: rgba(0, 0, 0, 0.4);
+            backdrop-filter: blur(4px);
+            z-index: 1000;
+            animation: fadeIn 0.3s ease forwards;
+          }
+
+          @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
           }
         }
       `}</style>
