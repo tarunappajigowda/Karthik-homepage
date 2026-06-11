@@ -94,7 +94,7 @@ nav { position: absolute; top: 0; left: 12%; right: 12%; z-index: 100; display: 
 .ventures { background: var(--dark); padding: 100px 12%; }
 .v-header { display: flex; justify-content: space-between; align-items: flex-end; margin-bottom: 40px; padding-bottom: 24px; border-bottom: 1px solid var(--border-dark); }
 .v-tag { font-size: 11px; font-weight: 600; color: var(--amber); letter-spacing: 2.5px; text-transform: uppercase; margin-bottom: 8px; }
-.v-title { font-size: clamp(32px,4vw,46px); font-weight: 800; color: #fff; letter-spacing: -1.5px; }
+.v-title { font-size: clamp(28px,3vw,38px); font-weight: 800; color: #fff; letter-spacing: -1.5px; }
 .v-subtitle { font-size: 14px; color: rgba(255,255,255,0.35); max-width: 260px; line-height: 1.5; text-align: right; }
 .v-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 2px; }
 .vcard { background: #1a1a1a; padding: 36px; transition: background 0.3s; cursor: pointer; }

@@ -1,19 +1,10 @@
 import React from 'react';
+import Link from 'next/link';
 import { FaLinkedin, FaInstagram } from 'react-icons/fa';
 
 export default function Home() {
   return (
     <div className="page-wrapper">
-      <nav>
-        <div className="nav-logo">Karthik P K</div>
-        <div className="nav-links">
-          <a href="#">About</a>
-          <a href="#">Ventures</a>
-          <a href="#">Art Gallery</a>
-          <a href="#">Creator</a>
-          <a href="#" className="nav-cta">Connect ↗</a>
-        </div>
-      </nav>
 
       <section className="hero">
         <div className="hero-left">
@@ -53,7 +44,7 @@ export default function Home() {
       <section className="about">
         <div className="about-grid">
           <div className="about-left">
-            <div className="about-top-left"><h2>About Karthik P K</h2></div>
+            <div className="about-top-left"><p>About</p></div>
             <p className="about-body">I'm the founder of AllOfficials and Fumet — building brands that serve real people. As a Kannada content creator, I believe every great business starts with an authentic story.</p>
             <a href="#" className="about-cta">More About Me →</a>
           </div>
@@ -154,40 +145,6 @@ export default function Home() {
         </div>
       </section>
 
-      <footer>
-        <div className="footer-top">
-          <div>
-            <div className="footer-brand">Karthik P K</div>
-            <div className="footer-tag">Founder · Creator · Builder</div>
-            <div className="footer-socials">
-              <div className="footer-socials">
-                <a href="https://www.instagram.com/mr.karthikpk" target="_blank" rel="noopener noreferrer" className="soc">
-                  <FaInstagram size={20} color="#E4405F" /> {/* Official Instagram Pink/Red */}
-                </a>
-                <a href="https://www.linkedin.com/in/karthik-p-k-0a7a15249" target="_blank" rel="noopener noreferrer" className="soc">
-                  <FaLinkedin size={20} color="#0A66C2" /> {/* Official LinkedIn Blue */}
-                </a>
-                <a href="https://www.instagram.com/karthikpk.kannada" target="_blank" rel="noopener noreferrer" className="soc">
-                  <FaInstagram size={20} color="#E4405F" /> {/* Official Instagram Pink/Red */}
-                </a>
-              </div>
-            </div>
-          </div>
-          <div>
-            <div className="fc-title">Pages</div>
-            <div className="fc-links"><a href="#">About</a><a href="#">AllOfficials</a><a href="#">Fumet</a><a href="#">Creator</a><a href="#">Contact</a></div>
-          </div>
-          <div>
-            <div className="fc-title">Connect</div>
-            <div className="fc-links"><a href="#">Instagram</a><a href="#">LinkedIn</a><a href="#">Collaborations</a><a href="#">Press</a></div>
-          </div>
-        </div>
-        <div className="footer-wm">KARTHIK P K</div>
-        <div className="footer-bottom">
-          <span className="fc">© 2025 Karthik P K. All rights reserved.</span>
-          <span className="fc">karthikpk.com</span>
-        </div>
-      </footer>
     </div>
   );
 }

@@ -1,26 +1,24 @@
 import './globals.css';
 import React from 'react';
+import Navbar from'../components/Navbar';
+import Footer from '../components/Footer';
 
-export const metadata = {
-  title: 'Karthik P K | Founder, Entrepreneur & Kannada Creator',
-  description: 'Official homepage of Karthik P K. Founder of AllOfficials & Fumet. Creating content and building brands for the Kannada-speaking community.',
-  keywords: ['Karthik P K', 'AllOfficials', 'Fumet', 'Kannada Creator', 'Entrepreneur', 'Brand Builder'],
-  openGraph: {
-    title: 'Karthik P K | Founder, Entrepreneur & Kannada Creator',
-    description: 'Founder of AllOfficials & Fumet. Turning ideas into ventures that serve real people.',
-    type: 'website',
-  },
-};
-
-export default function RootLayout({
-  children,
-}: {
+interface RootLayoutProps {
   children: React.ReactNode;
-}) {
+}
+
+export default function RootLayout({ children }: RootLayoutProps) {
   return (
     <html lang="en">
       <body>
-        {children}
+        {/* The Navbar sits globally at the top of every route */}
+        <Navbar />
+        
+        {/* Page specific code from your subfolders injects here */}
+        <main>{children}</main>
+        
+        {/* The Footer sits globally at the bottom of every route */}
+        <Footer />
       </body>
     </html>
   );
