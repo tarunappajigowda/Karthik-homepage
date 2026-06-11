@@ -20,19 +20,17 @@ export default function Navbar() {
 
   return (
     <>
-      {/* Changed to fixed position so it glides perfectly along with the page scroll */}
       <nav style={{
         position: 'fixed',
         top: 0,
         left: 0,
         right: 0,
-        zIndex: 1000,
+        zIndex: 1050, /* Higher than the backdrop */
         display: 'flex',
         alignItems: 'center',
         justifyContent: 'space-between',
-        padding: '28px 56px',
-        transition: 'background-color 0.3s ease'
-      }} className={isOpen ? 'nav-open-bg' : ''}>
+        padding: '28px 56px'
+      }}>
         
         <Link href="/" style={{ fontWeight: 700, fontSize: '16px', color: '#fff', textDecoration: 'none', zIndex: 1100 }}>
           Karthik P K
@@ -69,7 +67,7 @@ export default function Navbar() {
         </div>
       </nav>
 
-      {/* Background Overlay Dimmer - Makes the integration feel incredibly professional */}
+      {/* Background Overlay Dimmer - Handles click-away safely */}
       {isOpen && <div className="menu-backdrop" onClick={() => setIsOpen(false)} />}
 
       <style jsx global>{`
@@ -104,23 +102,22 @@ export default function Navbar() {
             display: flex !important;
           }
           
-          /* The menu drawer now occupies exactly half-screen widths */
           .nav-menu {
             position: fixed;
             top: 0;
             right: 0;
             bottom: 0;
-            width: 50vw; /* Exact half screen wide */
-            min-width: 290px; /* Prevents text crushing on ultra-small device layers */
+            width: 50vw;
+            min-width: 280px;
             height: 100vh;
             background: #111111;
             border-left: 1px solid rgba(255, 255, 255, 0.08);
             flex-direction: column;
             justify-content: center;
-            align-items: flex-start; /* Professional left-aligned menu structure */
+            align-items: flex-start;
             gap: 32px;
             padding: 60px 40px;
-            z-index: 1050;
+            z-index: 1090; /* HIGHER than backdrop */
             transform: translateX(100%);
             transition: transform 0.4s cubic-bezier(0.16, 1, 0.3, 1);
             will-change: transform;
@@ -134,6 +131,7 @@ export default function Navbar() {
             font-size: 18px;
             font-weight: 600;
             width: 100%;
+            display: block;
           }
 
           /* Elegant dimming background layer */
@@ -145,7 +143,8 @@ export default function Navbar() {
             height: 100vh;
             background: rgba(0, 0, 0, 0.4);
             backdrop-filter: blur(4px);
-            z-index: 1000;
+            -webkit-backdrop-filter: blur(4px);
+            z-index: 1000; /* LOWER than navigation layout */
             animation: fadeIn 0.3s ease forwards;
           }
 
