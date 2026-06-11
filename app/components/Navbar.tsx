@@ -20,12 +20,13 @@ export default function Navbar() {
 
   return (
     <>
+      {/* Changed to absolute so it sits strictly at the very top of the page */}
       <nav style={{
-        position: 'fixed',
+        position: 'absolute',
         top: 0,
         left: 0,
         right: 0,
-        zIndex: 1050, /* Higher than the backdrop */
+        zIndex: 1050,
         display: 'flex',
         alignItems: 'center',
         justifyContent: 'space-between',
@@ -102,6 +103,7 @@ export default function Navbar() {
             display: flex !important;
           }
           
+          /* Keep mobile menu fixed over viewport when open, even if scrolled */
           .nav-menu {
             position: fixed;
             top: 0;
@@ -117,7 +119,7 @@ export default function Navbar() {
             align-items: flex-start;
             gap: 32px;
             padding: 60px 40px;
-            z-index: 1090; /* HIGHER than backdrop */
+            z-index: 1090;
             transform: translateX(100%);
             transition: transform 0.4s cubic-bezier(0.16, 1, 0.3, 1);
             will-change: transform;
@@ -144,7 +146,7 @@ export default function Navbar() {
             background: rgba(0, 0, 0, 0.4);
             backdrop-filter: blur(4px);
             -webkit-backdrop-filter: blur(4px);
-            z-index: 1000; /* LOWER than navigation layout */
+            z-index: 1000;
             animation: fadeIn 0.3s ease forwards;
           }
 
