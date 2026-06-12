@@ -5,7 +5,7 @@ import { FaLinkedin, FaInstagram } from 'react-icons/fa';
 export default function Footer() {
   return (
     <>
-      <footer style={{ background: '#111111', padding: '64px 56px 0', overflow: 'hidden' }}>
+      <footer style={{ background: '#111111', padding: '100px 12%', overflow: 'hidden' }}>
         <div style={{ display: 'grid', gridTemplateColumns: '1.5fr 1fr 1fr', gap: '60px', paddingBottom: '56px', borderBottom: '1px solid rgba(255,255,255,0.09)' }}>
           <div>
             <div style={{ fontWeight: 700, fontSize: '20px', color: '#fff', marginBottom: '8px' }}>Karthik P K</div>

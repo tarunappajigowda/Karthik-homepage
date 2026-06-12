@@ -49,7 +49,7 @@ export default function Home() {
             <a href="#" className="about-cta">More About Me →</a>
           </div>
           <div className="about-right">
-            <h2 className="about-heading">I'm Your Founder, Builder & Kannada Creator for Clarity and Impact</h2>
+            <h2 className="about-heading">About Karthik P K</h2>
             <div className="about-photo"><span className="about-photo-ph">Karthik Sir Photo</span></div>
           </div>
         </div>
@@ -98,7 +98,7 @@ export default function Home() {
       <section className="creator">
         <div className="creator-top">
           <div>
-            <div className="c-badge"><span><h2>Featured Kannada Business Content by Karthik P K</h2></span></div>
+            <div className="c-badge"><span><h2>Explore my content</h2></span></div>
           </div>
           <a href="https://instagram.com/karthikpk.kannada" target="_blank" rel="noopener noreferrer" className="btn-amber">Follow on Instagram →</a>
         </div>
