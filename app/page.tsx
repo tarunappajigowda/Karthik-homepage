@@ -9,7 +9,7 @@ export default function Home() {
       <section className="hero">
         <div className="hero-left">
           <h1 className="hero-h1">Karthik P K - Founder of Allofficials and Fumet</h1>
-          <p className="hero-desc">Founder of AllOfficials & Fumet. Creating content for Kannada-speaking community. Turning ideas into ventures that serve real people.</p>
+          <p className="hero-desc">An emerging entrepreneur and content creator for the Kannada-speaking community. Turning ideas into ventures that serve real people.</p>
           <div className="hero-btns">
             <a href="#" className="btn-solid">Explore My Ventures →</a>
             <a href="#" className="btn-ghost">Read My Story</a>

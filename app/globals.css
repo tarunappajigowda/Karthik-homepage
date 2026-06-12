@@ -200,7 +200,7 @@ footer { background: var(--dark); padding: 100px 12%;; overflow: hidden; }
   .nav-links { display: none; } /* Standard solution: Hides complex layouts for mobile burger menus */
   
   /* Sections Padding Reduction */
-  .hero-left { padding: 140px 24px 60px 24px; }
+  .hero-left, 
   .about, .ventures, .story, .creator, .cta-banner, .nav-cards, footer { 
     padding-left: 24px !important; 
     padding-right: 24px !important; 
