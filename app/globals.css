@@ -209,7 +209,7 @@ footer { background: var(--dark); padding: 100px 12%;; overflow: hidden; }
   }
 
   /* HERO SECTION */
- /* .hero { grid-template-columns: 1fr; min-height: auto; } */
+  .hero { grid-template-columns: 1fr; min-height: auto; }
   .hero-right { display: none; } /* Hides desktop empty state/image wrapper context if unneeded on mobile */
   .hero-badges { position: static; margin-top: 32px; flex-direction: row; flex-wrap: wrap; }
   
