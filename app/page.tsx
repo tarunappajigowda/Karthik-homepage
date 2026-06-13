@@ -85,10 +85,14 @@ export default function Home() {
           </div>
           <div className="story-right">
             <div className="story-paras">
-              <p className="story-p">My journey began at the intersection of curiosity and pragmatism. Growing up, I was always drawn to how things work — and more importantly, how they could work better.</p>
-              <p className="story-p">When I saw the gap in the market, I didn't wait. I built AllOfficials from scratch — a platform that solved a real problem for real people in the sports world.</p>
-              <p className="story-p">Fumet came from a different calling — a love for authentic food culture and the belief that premium shouldn't mean inaccessible. Two brands, one mission.</p>
-              <p className="story-p">Today I create content for 25K+ Kannada-speaking audience because our stories deserve to be told in our own language, with our own voice.</p>
+              <p className="story-p">My entrepreneurial journey began with a doorstep car accessories business, inspired by the hands-on experience I gained while working in the automotive industry.
+                 Understanding products, installations, and customer needs gave me the confidence to build something of my own. Those early lessons shaped my approach to business—identify a problem,
+                  create value, and deliver a better customer experience.
+              </p>
+              <p className="story-p">
+                That mindset led to the creation of ALLOFFICIALS and later FUMET, two brands built to serve different segments of the Indian apparel market with exceptional quality and design.
+               As a bootstrapped founder, the biggest challenge was staying committed through years of uncertainty and limited resources. Today, my mission is to build category-leading brands from India and prove they can compete with the best in the world.
+              </p>
             </div>
             <a href="#" className="story-cta">Read the Full Story →</a>
           </div>
