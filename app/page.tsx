@@ -9,7 +9,7 @@ export default function Home() {
       <section className="hero">
         <div className="hero-left">
           <h1 className="hero-h1">Karthik P K - Founder of Allofficials and Fumet</h1>
-          <p className="hero-desc">An emerging entrepreneur and content creator for the Kannada-speaking community. Turning ideas into ventures that serve real people.</p>
+          <p className="hero-desc">Bootstrapped founder behind AllOfficials and Fumet - two premium apparel brands built for India, made to be great.</p>
           <div className="hero-btns">
             <a href="#" className="btn-solid">Explore My Ventures →</a>
             <a href="#" className="btn-ghost">Read My Story</a>
@@ -45,7 +45,7 @@ export default function Home() {
         <div className="about-grid">
           <div className="about-left">
             <div className="about-top-left"><p>About</p></div>
-            <p className="about-body">I'm the founder of AllOfficials and Fumet — building brands that serve real people. As a Kannada content creator, I believe every great business starts with an authentic story.</p>
+            <p className="about-body">I started my entrepreneurial journey with just ₹200 and absolutely no experience in e-commerce or the garment industry. Through constant learning, countless mistakes, and an unwillingness to quit, I turned challenges into opportunities for growth. Today, Allofficials have sold 10,000+ units across India and set trends that hundreds of competitors now follow. My mission is to build world-class products that are proudly made in India and accessible to everyone.</p>
             <a href="#" className="about-cta">More About Me →</a>
           </div>
           <div className="about-right">
@@ -64,13 +64,13 @@ export default function Home() {
           <div className="vcard">
             <div className="vcard-top"><h3 className="vcard-name">AllOfficials</h3></div>
             <div className="vcard-img vc-ao">allofficials.in</div>
-            <p className="vcard-desc">A sports-tech platform streamlining the recruitment and management of athletic officials globally — forming systems that sports rely on.</p>
+            <p className="vcard-desc">Premium Indian athleisure brand built for those who pursue greatness every day. Combining performance, comfort, and timeless design, ALLOFFICIALS delivers international-quality apparel at accessible prices for athletes, creators, and ambitious individuals.</p>
             <a href="#" className="vcard-link">Visit Brand →</a>
           </div>
           <div className="vcard">
             <div className="vcard-top"><h3 className="vcard-name">Fumet</h3></div>
             <div className="vcard-img vc-fm">fumet.in</div>
-            <p className="vcard-desc">Premium culinary brand focused on authentic flavours and seasonal ingredients — bridging food lovers with modern consumption habits.</p>
+            <p className="vcard-desc">A modern activewear and lifestyle brand created for people who move every day. FUMET offers premium-quality activewear and accessories engineered for comfort, performance, and style - bringing world-class quality to the Indian market at a fraction of international prices.</p>
             <a href="#" className="vcard-link">Visit Brand →</a>
           </div>
         </div>
