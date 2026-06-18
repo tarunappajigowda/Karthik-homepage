@@ -18,7 +18,7 @@ export default function Home() {
         <div className="hero-right">
           <img src="/resources/Karthik_sir_photo_for_website.jpeg" alt="Karthik P K" className="hero-photo" />
           <div className="hero-right-overlay"></div>
-          <div className="hero-badges">
+          <div className="hero-right-overlay-right">
           </div>
         </div>
         <div className="hero-watermark">KARTHIK P K</div>
@@ -49,7 +49,7 @@ export default function Home() {
             <a href="#" className="about-cta">More About Me →</a>
           </div>
           <div className="about-right">
-            <h2 className="about-heading">About Karthik P K</h2>
+            <div className="about-heading"><h2>About Karthik P K</h2></div>
             <div className="about-photo"><span className="about-photo-ph">Karthik Sir Photo</span></div>
           </div>
         </div>
