@@ -19,7 +19,7 @@ export default function AboutPage() {
               Founder of AllOfficials & Fumet. Kannada content creator with 11K+ community. Building brands that serve real people.
             </p>
             <div className={styles.phChips}>
-              <span className={`${styles.chip} ${styles.chipAmber}`}>Entrepreneur</span>
+              <span className={`${styles.chip}`}>Entrepreneur</span>
               <span className={styles.chip}>Brand Founder</span>
               <span className={styles.chip}>Kannada Creator</span>
               <span className={styles.chip}>Builder</span>

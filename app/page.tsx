@@ -1,6 +1,15 @@
 import React from 'react';
 import Link from 'next/link';
 import { FaLinkedin, FaInstagram } from 'react-icons/fa';
+import type { Metadata } from 'next'; // Optional: for TypeScript type safety
+
+// ✅ This is the correct Next.js way to add robots tags
+export const metadata: Metadata = {
+  robots: {
+    index: true,
+    follow: true,
+  },
+};
 
 export default function Home() {
   return (
@@ -8,7 +17,7 @@ export default function Home() {
 
       <section className="hero">
         <div className="hero-left">
-          <h1 className="hero-h1">Karthik P K - Founder of Allofficials and Fumet</h1>
+          <h1 className="hero-h1">Karthik P K - Founder of Allofficials & Fumet</h1>
           <p className="hero-desc">Bootstrapped founder behind AllOfficials and Fumet - two premium apparel brands built for India, made to be great.</p>
           <div className="hero-btns">
             <a href="#" className="btn-solid">Explore My Ventures →</a>
@@ -96,56 +105,6 @@ export default function Home() {
             </div>
             <a href="#" className="story-cta">Read the Full Story →</a>
           </div>
-        </div>
-      </section>
-
-      <section className="creator">
-        <div className="creator-top">
-          <div>
-            <div className="c-badge"><span><h2>Explore my content</h2></span></div>
-          </div>
-          <a href="https://instagram.com/karthikpk.kannada" target="_blank" rel="noopener noreferrer" className="btn-amber">Follow on Instagram →</a>
-        </div>
-        <div className="reels">
-          {/* Reel 1 */}
-          <a href="https://www.instagram.com/reel/DV3dNNzkVBF/?igsh=dHJlcGx4enQ4amJ4" target="_blank" rel="noopener noreferrer" className="reel-link">
-            <div className="reel" style={{ backgroundImage: "url('/images/reel-thumb-1.jpg')" }}>
-              <div className="reel-play">
-                <div className="reel-tri"></div>
-              </div>
-              <span className="reel-lbl">About Hajmola</span>
-            </div>
-          </a>
-
-          {/* Reel 2 */}
-          <a href="https://www.instagram.com/reel/DX64tzANQ12/?igsh=MTR6YXZweXEyaHc0ZA==" target="_blank" rel="noopener noreferrer" className="reel-link">
-            <div className="reel" style={{ backgroundImage: "url('/images/reel-thumb-2.jpg')" }}>
-              <div className="reel-play">
-                <div className="reel-tri"></div>
-              </div>
-              <span className="reel-lbl">Top 10 oldest Companies of India</span>
-            </div>
-          </a>
-
-          {/* Reel 3 */}
-          <a href="https://www.instagram.com/reel/DWeDNlWCse9/?igsh=azNqYWYzeGRkcndj" target="_blank" rel="noopener noreferrer" className="reel-link">
-            <div className="reel" style={{ backgroundImage: "url('/images/reel-thumb-3.jpg')" }}>
-              <div className="reel-play">
-                <div className="reel-tri"></div>
-              </div>
-              <span className="reel-lbl">About JCB</span>
-            </div>
-          </a>
-        </div>
-      </section>
-
-      <section className="nav-cards">
-        <div className="nc-label">Explore</div>
-        <div className="nc-grid">
-          <a href="#" className="nc"><div className="nc-num">01</div><div className="nc-title">About Me</div><div className="nc-desc">My story, values, and the vision behind everything I build.</div><div className="nc-arr">→</div></a>
-          <a href="#" className="nc"><div className="nc-num">02</div><div className="nc-title">AllOfficials</div><div className="nc-desc">Sports-tech platform revolutionising official management globally.</div><div className="nc-arr">→</div></a>
-          <a href="#" className="nc"><div className="nc-num">03</div><div className="nc-title">Fumet</div><div className="nc-desc">Premium culinary brand bridging authentic flavours with modern life.</div><div className="nc-arr">→</div></a>
-          <a href="#" className="nc"><div className="nc-num">04</div><div className="nc-title">Creator</div><div className="nc-desc">Kannada content, business reels and a growing community of 25K+.</div><div className="nc-arr">→</div></a>
         </div>
       </section>
 

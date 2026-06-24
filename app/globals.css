@@ -136,28 +136,6 @@ nav { position: absolute; top: 0; left: 12%; right: 12%; z-index: 100; display: 
 .story-cta { margin-top: 24px; display: inline-flex; align-items: center; gap: 8px; font-size: 14px; font-weight: 600; color: var(--text); text-decoration: none; border-bottom: 2px solid var(--text); padding-bottom: 2px; transition: color 0.2s,border-color 0.2s; }
 .story-cta:hover { color: var(--amber); border-color: var(--amber); }
 
-/* CREATOR */
-.creator { background: var(--dark); padding: 100px 12%; }
-.creator-top { display: flex; justify-content: space-between; align-items: flex-end; margin-bottom: 40px; }
-.c-badge { display: inline-flex; align-items: center; gap: 8px; border: 1px solid rgba(200,149,42,0.3); padding: 4px 14px; border-radius: 100px; margin-bottom: 14px; }
-.c-badge span { font-size: 11px; font-weight: 600; color: var(--amber); letter-spacing: 2px; }
-.creator-title { font-size: clamp(28px,4vw,44px); font-weight: 800; color: #fff; letter-spacing: -1.5px; line-height: 1.1; }
-.reels { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; }
-.reel { aspect-ratio: 9/14; max-height: 300px; background: #1a1a1a; border-radius: 12px; border: 1px solid var(--border-dark); display: flex; align-items: center; justify-content: center; position: relative; cursor: pointer; transition: border-color 0.2s; }
-.reel:hover { border-color: rgba(200,149,42,0.4); }
-.reel-play { width: 40px; height: 40px; background: rgba(200,149,42,0.9); border-radius: 50%; display: flex; align-items: center; justify-content: center; transition: transform 0.2s; }
-.reel:hover .reel-play { transform: scale(1.1); }
-.reel-tri { width: 0; height: 0; border-left: 14px solid #fff; border-top: 8px solid transparent; border-bottom: 8px solid transparent; margin-left: 3px; }
-.reel-lbl { position: absolute; bottom: 12px; left: 12px; font-size: 11px; color: rgba(255,255,255,0.4); font-weight: 500; letter-spacing: 0.5px; }
-.btn-amber { background: var(--amber); color: #fff; padding: 12px 28px; border-radius: 100px; font-size: 14px; font-weight: 600; text-decoration: none; display: inline-flex; align-items: center; gap: 8px; transition: all 0.2s; flex-shrink: 0; }
-.btn-amber:hover { background: #b5841f; }
-
-/* CTA */
-.cta-banner { padding: 100px 12%; text-align: center; position: relative; overflow: hidden; }
-.cta-banner::before { content: ''; position: absolute; inset: 0; background: radial-gradient(ellipse 50% 60% at 50% 100%,rgba(200,149,42,0.1) 0%,transparent 70%); }
-.cta-h { font-size: clamp(32px,5vw,56px); font-weight: 800; color: var(--text); letter-spacing: -1.5px; line-height: 1.05; margin-bottom: 12px; position: relative; }
-.cta-p { font-size: 15px; color: var(--muted); margin-bottom: 32px; position: relative; }
-
 /* NAV CARDS */
 .nav-cards { background: #fff; padding: 100px 12%; }
 .nc-label { font-size: 11px; font-weight: 600; color: var(--muted); letter-spacing: 3px; text-transform: uppercase; margin-bottom: 28px; display: flex; align-items: center; gap: 8px; }
