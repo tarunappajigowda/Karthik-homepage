@@ -17,16 +17,13 @@ export const metadata: Metadata = {
 export default function Home() {
   return (
     <>
-      <Script
-        async
-        src="https://www.googletagmanager.com/gtag/js?id=G-4T1PDM2JV1"
-      />
-      <Script id="gtag-init">
+      <Script async src="https://www.googletagmanager.com/gtag/js?id=G-DSD001EP8E"></Script>
+      <Script id="gtag-init" strategy="afterInteractive">
         {`
           window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
+          function gtag(){window.dataLayer.push(arguments);}
           gtag('js', new Date());
-          gtag('config', 'G-4T1PDM2JV1');
+          gtag('config', 'G-DSD001EP8E');
         `}
       </Script>
       <div className="page-wrapper">

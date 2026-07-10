@@ -11,8 +11,9 @@ export default function Footer() {
             <div style={{ fontWeight: 700, fontSize: '20px', color: '#fff', marginBottom: '8px' }}>Karthik P K</div>
             <div style={{ fontSize: '13px', color: 'rgba(255,255,255,0.35)', marginBottom: '24px' }}>Founder · Creator · Builder</div>
             <div style={{ display: 'flex', gap: '10px' }}>
-              <a href="https://linkedin.com" target="_blank" rel="noreferrer" className="soc"><FaLinkedin /></a>
-              <a href="https://instagram.com" target="_blank" rel="noreferrer" className="soc"><FaInstagram /></a>
+              <a href="https://instagram.com/mr.karthikpk" target="_blank" rel="noreferrer" className="soc"><FaInstagram /></a>
+              <a href="https://linkedin.com/in/karthik-p-k-0a7a1524" target="_blank" rel="noreferrer" className="soc"><FaLinkedin /></a>
+              <a href="https://instagram.com/karthikpk.kannada" target="_blank" rel="noreferrer" className="soc"><FaInstagram /></a>
             </div>
           </div>
           
@@ -30,8 +31,9 @@ export default function Footer() {
           <div>
             <div className="fc-title">Connect</div>
             <div className="fc-links" style={{ display: 'flex', flexDirection: 'column', gap: '12px' }}>
-              <a href="https://instagram.com" target="_blank" rel="noreferrer">Instagram</a>
-              <a href="https://linkedin.com" target="_blank" rel="noreferrer">LinkedIn</a>
+              <a href="https://instagram.com/karthikpk.kannada" target="_blank" rel="noreferrer">Instagram</a>
+              <a href="https://linkedin.com/in/karthik-p-k-0a7a1524" target="_blank" rel="noreferrer">LinkedIn</a>
+              <a href="https://instagram.com/mr.karthikpk" target="_blank" rel="noreferrer">Instagram</a>
               <Link href="/collaborations">Collaborations</Link>
               <Link href="/press">Press</Link>
             </div>
