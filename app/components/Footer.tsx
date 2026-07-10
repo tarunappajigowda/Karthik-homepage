@@ -12,7 +12,7 @@ export default function Footer() {
             <div style={{ fontSize: '13px', color: 'rgba(255,255,255,0.35)', marginBottom: '24px' }}>Founder · Creator · Builder</div>
             <div style={{ display: 'flex', gap: '10px' }}>
               <a href="https://instagram.com/mr.karthikpk" target="_blank" rel="noreferrer" className="soc"><FaInstagram /></a>
-              <a href="https://linkedin.com/in/karthik-p-k-0a7a1524" target="_blank" rel="noreferrer" className="soc"><FaLinkedin /></a>
+              <a href="https://linkedin.com/in/karthik-p-k-0a7a15249" target="_blank" rel="noreferrer" className="soc"><FaLinkedin /></a>
               <a href="https://instagram.com/karthikpk.kannada" target="_blank" rel="noreferrer" className="soc"><FaInstagram /></a>
             </div>
           </div>
