@@ -4,8 +4,8 @@ import Navbar from './components/Navbar'; // Changed from '../' to './'
 import Footer from './components/Footer'; // Changed from '../' to './'
 
 export const metadata = {
-  title: 'Karthik P K | Founder, Entrepreneur & Kannada Creator',
-  description: 'Official homepage of Karthik P K.',
+  title: 'Karthik P K | Founder of Allofficials and Fumet',
+  description: 'Official website of Karthik P K, founder of Allofficials and Fumet. Explore entrepreneurship, brand building, Kannada content creation, and personal insights',
 };
 
 export default function RootLayout({
