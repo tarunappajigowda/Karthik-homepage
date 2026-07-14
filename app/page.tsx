@@ -37,10 +37,10 @@ export default function Home() {
             </div>
           </div>
           <div className="hero-right">
-            <img src="/resources/Karthik_sir_photo_for_website.jpeg" alt="Karthik P K" className="hero-photo" />
+            <img src="/resources/Karthik_sir_main_image.png" alt="Karthik P K" className="hero-photo" />
             <div className="hero-right-overlay"></div>
-            <div className="hero-right-overlay-right">
-            </div>
+            <div className="hero-right-overlay-right"></div>
+            <div className="hero-right-overlay-bottom"></div>
           </div>
           <div className="hero-watermark">KARTHIK P K</div>
         </section>
@@ -71,7 +71,9 @@ export default function Home() {
             </div>
             <div className="about-right">
               <div className="about-heading"><h2>About Karthik P K</h2></div>
-              <div className="about-photo"><span className="about-photo-ph">Karthik Sir Photo</span></div>
+              <div className="about-photo">
+                <img src="/resources/About_Karthik_pk_image.png" alt="Karthik P K" className="about-photo-img"/>
+              </div>
             </div>
           </div>
         </section>
@@ -106,7 +108,9 @@ export default function Home() {
             <div className="story-left">
               <div className="story-tag">My Story</div>
               <div className="story-quote"><h3>The Entrepreneurial Journey of Karthik P K</h3></div>
-              <div className="story-photo"><span className="story-photo-ph">Karthik Sir Photo</span></div>
+              <div className="story-photo">
+                <img src="resources/The_Entrepreneurial_Journey.png" alt="Karthik P K" className="entrepreneurial-journey"/>
+              </div>
             </div>
             <div className="story-right">
               <div className="story-paras">
