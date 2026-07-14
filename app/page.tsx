@@ -85,7 +85,7 @@ export default function Home() {
             <div className="vcard">
               <div className="vcard-top"><h3 className="vcard-name">AllOfficials</h3></div>
               <div className="vcard-img vc-ao">
-                <img src="resources/AllOfficialsLogo.png" alt="AllOfficials" className="vcard-logo"/>
+                <img src="resources/AllofficialsLogo.png" alt="AllOfficials" className="vcard-logo"/>
               </div>
               <p className="vcard-desc">Premium Indian athleisure brand built for those who pursue greatness every day. Combining performance, comfort, and timeless design, ALLOFFICIALS delivers international-quality apparel at accessible prices for athletes, creators, and ambitious individuals.</p>
               <a href="#" className="vcard-link">Visit Brand →</a>
