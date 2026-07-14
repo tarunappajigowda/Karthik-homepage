@@ -84,13 +84,17 @@ export default function Home() {
           <div className="v-grid">
             <div className="vcard">
               <div className="vcard-top"><h3 className="vcard-name">AllOfficials</h3></div>
-              <div className="vcard-img vc-ao">allofficials.in</div>
+              <div className="vcard-img vc-ao">
+                <img src="resources/AllOfficialsLogo.png" alt="AllOfficials" className="vcard-logo"/>
+              </div>
               <p className="vcard-desc">Premium Indian athleisure brand built for those who pursue greatness every day. Combining performance, comfort, and timeless design, ALLOFFICIALS delivers international-quality apparel at accessible prices for athletes, creators, and ambitious individuals.</p>
               <a href="#" className="vcard-link">Visit Brand →</a>
             </div>
             <div className="vcard">
               <div className="vcard-top"><h3 className="vcard-name">Fumet</h3></div>
-              <div className="vcard-img vc-fm">fumet.in</div>
+              <div className="vcard-img vc-fm">
+                <img src="resources/FumetLogo.png" alt="Fumet" className="vcard-logo"/>
+              </div>
               <p className="vcard-desc">A modern activewear and lifestyle brand created for people who move every day. FUMET offers premium-quality activewear and accessories engineered for comfort, performance, and style - bringing world-class quality to the Indian market at a fraction of international prices.</p>
               <a href="#" className="vcard-link">Visit Brand →</a>
             </div>

@@ -112,7 +112,7 @@ nav { position: absolute; top: 0; left: 12%; right: 12%; z-index: 100; display: 
 .vcard-top { display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 32px; }
 .vcard-name { font-weight: 700; font-size: 24px; color: #fff; letter-spacing: -0.5px; }
 .vcard-live { font-size: 10px; font-weight: 600; color: #22c55e; letter-spacing: 1.5px; border: 1px solid rgba(34,197,94,0.3); padding: 4px 10px; border-radius: 100px; text-transform: uppercase; }
-.vcard-img { width: 100%; aspect-ratio: 16/7; border-radius: 8px; margin-bottom: 24px; display: flex; align-items: center; justify-content: center; font-size: 11px; letter-spacing: 2px; color: rgba(255,255,255,0.15); text-transform: uppercase; }
+.vcard-img { width: 100%; aspect-ratio: 1/1; border-radius: 8px; margin-bottom: 24px; display: flex; align-items: center; justify-content: center; font-size: 11px; letter-spacing: 2px; color: rgba(255,255,255,0.15); text-transform: uppercase; }
 .vc-ao { background: linear-gradient(135deg,#0d1b35 0%,#1a2f5a 100%); }
 .vc-fm { background: linear-gradient(135deg,#1a0f02 0%,#2d1c06 100%); }
 .vcard-desc { font-size: 14px; color: rgba(255,255,255,0.45); line-height: 1.6; margin-bottom: 24px; }
@@ -120,6 +120,7 @@ nav { position: absolute; top: 0; left: 12%; right: 12%; z-index: 100; display: 
 .vcard-stat-l { font-size: 11px; color: rgba(255,255,255,0.35); text-transform: uppercase; letter-spacing: 1.5px; margin-top: 4px; margin-bottom: 24px; }
 .vcard-link { display: inline-flex; align-items: center; gap: 8px; font-size: 14px; font-weight: 600; color: var(--amber); text-decoration: none; transition: gap 0.2s; }
 .vcard:hover .vcard-link { gap: 14px; }
+.vcard-logo { width: 100%; height: 100%; object-fit: contain; border-radius: 8px; } /* Ensures the logo fits within the card and maintains aspect ratio */
 
 /* STORY */
 .story { background: var(--light); padding: 100px 12%; }
