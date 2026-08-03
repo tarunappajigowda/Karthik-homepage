@@ -14,17 +14,12 @@ export default function AllOfficialsPage() {
         <div className={styles.phLogoRow}>
           <div className={styles.phLogoBox}>
             <div className={styles.logoPlaceholder}>
-              <Image 
+              <img 
                 src="/resources/AllofficialsLogo.png" 
-                alt="AllOfficials Logo" 
-                width={140} 
-                height={40} 
+                alt="AllOfficials Logo"  
+                className={styles.vcLogo}
                 style={{ objectFit: 'contain' }}
               />
-            </div>
-            <div className={styles.phLogoBadges}>
-              <span className={styles.phVentureBadge}>Venture — 01</span>
-              <span className={styles.phLive}>Live & Growing</span>
             </div>
           </div>
           <div className={styles.phRightTop}>
@@ -34,12 +29,6 @@ export default function AllOfficialsPage() {
         </div>
 
         <div className={styles.phTitle}>AllOfficials</div>
-        <div className={styles.phStatsRow}>
-          <div className={styles.phStat}><div className={styles.phStatN}>300<sup>%</sup></div><div className={styles.phStatL}>Growth Rate</div></div>
-          <div className={styles.phStat}><div className={styles.phStatN}>10<sup>K+</sup></div><div className={styles.phStatL}>Units Sold</div></div>
-          <div className={styles.phStat}><div className={styles.phStatN}>[X]<sup>+</sup></div><div className={styles.phStatL}>Cities Served</div></div>
-          <div className={styles.phStat}><div className={styles.phStatN}>[X]<sup>Yr</sup></div><div className={styles.phStatL}>In Market</div></div>
-        </div>
       </section>
 
       {/* WHAT IS */}
@@ -100,19 +89,7 @@ export default function AllOfficialsPage() {
       <section className={styles.impact}>
         <div className={styles.impLabel}>Impact & Growth</div>
         <div className={styles.impGrid}>
-          <div className={styles.impCard}>
-            <div className={styles.impN}>10<sup>K+</sup></div>
-            <div className={styles.impL}>Units Sold Across India</div>
-          </div>
-          <div className={styles.impCard}>
-            <div className={styles.impN}>300<sup>%</sup></div>
-            <div className={styles.impL}>Year on Year Growth</div>
-          </div>
-          <div className={styles.impCardBig}>
-            <div>
-              <div className={styles.impN}>[X]<sup>+</sup></div>
-              <div className={styles.impL}>Cities & Counting</div>
-            </div>
+          <div>
             <p className={styles.impBody}>AllOfficials is not just a product — it is a movement to bring professionalism to every level of sport in India. From small-town tournaments to national-level competitions, every official deserves a system that works.</p>
           </div>
         </div>

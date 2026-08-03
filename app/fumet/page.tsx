@@ -30,12 +30,6 @@ export default function FumetPage() {
           </div>
         </div>
         <div className={styles.phTitle}>Fumet</div>
-        <div className={styles.phStatsRow}>
-          <div className={styles.phStat}><div className={styles.phStatN}>50<sup>K+</sup></div><div className={styles.phStatL}>Unique Reach</div></div>
-          <div className={styles.phStat}><div className={styles.phStatN}>[X]<sup>+</sup></div><div className={styles.phStatL}>Orders Delivered</div></div>
-          <div className={styles.phStat}><div className={styles.phStatN}>[X]<sup>+</sup></div><div className={styles.phStatL}>Cities Served</div></div>
-          <div className={styles.phStat}><div className={styles.phStatN}>[X]<sup>Yr</sup></div><div className={styles.phStatL}>In Market</div></div>
-        </div>
       </section>
 
       {/* WHAT IS FUMET */}
@@ -96,19 +90,7 @@ export default function FumetPage() {
       <section className={styles.impact}>
         <div className={styles.impLabel}>Impact & Growth</div>
         <div className={styles.impGrid}>
-          <div className={styles.impCard}>
-            <div className={styles.impN}>50<sup>K+</sup></div>
-            <div className={styles.impL}>Unique Reach</div>
-          </div>
-          <div className={styles.impCard}>
-            <div className={styles.impN}>[X]<sup>+</sup></div>
-            <div className={styles.impL}>Orders Delivered</div>
-          </div>
           <div className={styles.impCardBig}>
-            <div>
-              <div className={styles.impN}>[X]<sup>+</sup></div>
-              <div className={styles.impL}>Cities & Counting</div>
-            </div>
             <p className={styles.impBody}>Fumet is not just food — it is a statement that premium quality and authentic taste should not be a luxury. Every order is a commitment to the belief that what goes on your plate should be made with care, not compromise.</p>
           </div>
         </div>

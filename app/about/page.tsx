@@ -110,7 +110,6 @@ export default function AboutPage() {
           <Link href="https://allofficials.com" className={styles.vbCard} target="_blank">
             <div className={styles.vbCardTop}>
               <span className={styles.vbName}>AllOfficials</span>
-              <span className={styles.vbLive}>● Live</span>
             </div>
             <p className={styles.vbDesc}>Sports-tech platform streamlining the recruitment and management of athletic officials globally.</p>
             <span className={styles.vbCardLink}>Visit AllOfficials →</span>
@@ -118,7 +117,6 @@ export default function AboutPage() {
           <Link href="https://fumet.com" className={styles.vbCard} target="_blank">
             <div className={styles.vbCardTop}>
               <span className={styles.vbName}>Fumet</span>
-              <span className={styles.vbLive}>● Live</span>
             </div>
             <p className={styles.vbDesc}>Premium culinary brand bridging authentic flavours and seasonal ingredients with modern consumption.</p>
             <span className={styles.vbCardLink}>Visit Fumet →</span>

@@ -33,11 +33,10 @@ export default function VenturesPage() {
             <div>
               <div className={styles.vcNum}>Venture — 01</div>
               <div className={styles.vcLogoSlot}>
-                <Image 
+                <img 
                   src="/resources/AllofficialsLogo.png" 
                   alt="AllOfficials Logo" 
-                  width={120} 
-                  height={36} 
+                  className={styles.vcLogo}
                   style={{ objectFit: 'contain' }} 
                 />
               </div>
@@ -65,11 +64,10 @@ export default function VenturesPage() {
             <div>
               <div className={styles.vcNum}>Venture — 02</div>
               <div className={styles.vcLogoSlot}>
-                <Image 
-                  src="/resources/fumet.png" 
+                <img 
+                  src="/resources/FumetLogo.png" 
                   alt="Fumet Logo" 
-                  width={120} 
-                  height={36} 
+                  className={styles.vcLogo}
                   style={{ objectFit: 'contain' }} 
                 />
               </div>

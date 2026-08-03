@@ -207,7 +207,7 @@
 }
 .vcLogoSlot {
   width: 140px;
-  height: 48px;
+  height: 98px;
   border: 1.5px dashed #ddd;
   border-radius: 6px;
   display: flex;
@@ -221,6 +221,14 @@
   margin-bottom: 28px;
   position: relative;
   overflow: hidden;
+}
+.vcLogo {
+  width: 100%;
+  height: fit-content;
+  object-fit: contain;
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 .vcName {
   font-size: clamp(36px, 4vw, 56px);
@@ -504,7 +512,8 @@
     min-height: auto;
   }
   .vCardLeft {
-    padding: 40px 24px;
+    padding: 40px 24px 12%;
+    padding-left: 12%;
     border-right: none;
     order: 2 !important; /* Stack text below media image */
   }

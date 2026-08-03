@@ -640,3 +640,136 @@
   font-size: 12px;
   color: rgba(255, 255, 255, 0.2);
 }
+
+/* ==========================================================================
+   MOBILE & TABLET RESPONSIVE STYLES (Up to 900px)
+   ========================================================================== */
+@media screen and (max-width: 900px) {
+  /* Navigation adjustments */
+  .fumetNav {
+    padding: 20px 24px;
+  }
+
+  .navLinks a:not(.navCta) {
+    display: none; /* Hides internal inline links to prevent mobile header clutter */
+  }
+
+  /* Page Header Layout */
+  .pageHeader {
+    padding: 120px 24px 0;
+    min-height: auto;
+  }
+
+  .phBgText {
+    left: 24px;
+    font-size: clamp(60px, 20vw, 120px);
+  }
+
+  .phLogoRow {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+    margin-bottom: 40px;
+  }
+
+  .phRightTop {
+    text-align: left;
+    max-width: 100%;
+  }
+
+  .phTitle {
+    font-size: clamp(40px, 12vw, 64px);
+    letter-spacing: -2px;
+  }
+
+  /* Stats Grid */
+  .phStatsRow {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+    margin-top: 40px;
+  }
+
+  .phStat {
+    padding: 20px 0;
+    border-right: none;
+  }
+
+  /* Section Padding & Grids */
+  .whatIs,
+  .offerings,
+  .impact,
+  .founderNote,
+  .visitCta,
+  .productImg {
+    padding: 60px 24px;
+  }
+
+  .wiGrid,
+  .fnGrid {
+    grid-template-columns: 1fr;
+    gap: 32px;
+  }
+
+  .ofGrid {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+
+  .ofCard {
+    padding: 28px 24px;
+  }
+
+  /* Impact Cards */
+  .impGrid {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+
+  .impCard,
+  .impCardBig {
+    grid-column: span 1;
+    padding: 32px 24px;
+  }
+
+  .impCardBig {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  /* Product Frame */
+  .productImgFrame {
+    aspect-ratio: 16/10;
+  }
+
+  /* Call to Action */
+  .visitCta {
+    grid-template-columns: 1fr;
+    gap: 32px;
+  }
+
+  .vcRight {
+    align-items: stretch;
+    width: 100%;
+  }
+
+  .btnWhite,
+  .btnGhostWhite {
+    justify-content: center;
+    width: 100%;
+  }
+
+  /* Footer */
+  .fumetFooter {
+    padding: 48px 24px 0;
+  }
+
+  .footerTop {
+    grid-template-columns: 1fr;
+    gap: 36px;
+  }
+
+  .footerBottom {
+    flex-direction: column;
+    gap: 12px;
+  }
+}
