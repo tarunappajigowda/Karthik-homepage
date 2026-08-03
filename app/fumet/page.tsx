@@ -22,7 +22,6 @@ export default function FumetPage() {
             </div>
             <div className={styles.phLogoBadges}>
               <span className={styles.phVentureBadge}>Venture — 02</span>
-              <span className={styles.phLive}>Live & Growing</span>
             </div>
           </div>
           <div className={styles.phRightTop}>

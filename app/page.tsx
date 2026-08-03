@@ -32,7 +32,7 @@ export default function Home() {
             <h1 className="hero-h1">Karthik P K - Founder of Allofficials & Fumet</h1>
             <p className="hero-desc">Bootstrapped founder behind AllOfficials and Fumet - two premium apparel brands built for India, made to be great.</p>
             <div className="hero-btns">
-              <a href="#" className="btn-solid">Explore My Ventures →</a>
+              <a href="/ventures" className="btn-solid">Explore My Ventures →</a>
               <a href="#" className="btn-ghost">Read My Story</a>
             </div>
           </div>
