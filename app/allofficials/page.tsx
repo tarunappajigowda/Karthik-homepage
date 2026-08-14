@@ -41,21 +41,26 @@ export default function Page() {
           </div>
           <div style={{ paddingTop: '8px' }}>
             <p className={styles.whatBody}>
-              AllOfficials is a performance gym wear brand built for athletes,
-              fitness enthusiasts, and anyone who takes their training seriously.
-              Every product is designed with one goal — to help you perform at your
-              best without being held back by your clothing.
+              AllOfficials is a premium activewear, gymwear, Indian lifestyle, and athleisure brand built around performance,
+               comfort, accessible pricing, and modern fits. The brand focuses on discipline, confidence, self-expression, 
+               and individuality, clearly visible in its collection.
               <br />
               <br />
-              From compression tees to training joggers, every piece in the
-              AllOfficials lineup is engineered using high-performance fabrics that
-              move with your body, manage sweat, and hold their shape through the
-              toughest workouts.
+              Not limited to traditional gym T-shirts, the current catalogue features
+              over 79 products including gym shorts, ribbed vests, compression wear,
+              baggy pants, joggers, tanks, cut-offs, hoodies, and lifestyle pieces.
               <br />
               <br />
-              AllOfficials is not just clothing. It is performance gear made for the
-              Indian athlete — built locally, priced fairly, and designed to compete
-              with the best in the world.
+              The brand started within a small room with a simple yet powerful idea,
+               a hands-on approach, and limited resources. The founders started the 
+               brand by modelling their products, ironing and packing themselves.
+               <br>
+               </br>
+               With an ambition to become a 100 crore brand in the next 2 years, 
+               Allofficials aims to build a brand that is not a generic apparel reseller. 
+               Allofficials presents itself as a growing and fast-developing lifestyle and 
+               home-grown brand.
+               
             </p>
           </div>
         </div>
@@ -72,42 +77,42 @@ export default function Page() {
               What Makes AllOfficials Different?
             </h2>
             <p className={styles.diffBody}>
-              AllOfficials is built around a single belief — that performance wear
-              should work as hard as the person wearing it. No compromises on
-              fabric, fit, or function.
+              Allofficials is different not because it is growing fast but because
+              it combines the functionality of gym with streetwear aesthetics in a
+              smart way.
             </p>
           </div>
           <div className={styles.diffPoints}>
             <div className={styles.diffPoint}>
               <div className={styles.diffDot}></div>
               <p className={styles.diffText}>
-                <strong>Performance-first fabrics</strong> — every material is
-                selected for stretch, breathability, and durability under real
-                training conditions, not just for looks.
+                <strong>Aesthetics and performance-oriented</strong> — It is not a technical sportswear brand. 
+                The collections combine bodybuilding aesthetics, performance wear, streetwear, and daily clothing.
               </p>
             </div>
             <div className={styles.diffPoint}>
               <div className={styles.diffDot}></div>
               <p className={styles.diffText}>
-                <strong>Built for the Indian athlete</strong> — designed with Indian
-                body types, climate, and training styles in mind. Not a copy of a
-                Western brand, a product made for us.
+                <strong>Great collections and fabric</strong> — The collections are great for
+                 both outside and inside the gym, and quality fabric is the major part with 
+                 270 GSM 100% ring-spun combed cotton, 240 GSM premium French Terry, 250 GSM 
+                 polyester, and 230 GSM polyester mesh.
               </p>
             </div>
             <div className={styles.diffPoint}>
               <div className={styles.diffDot}></div>
               <p className={styles.diffText}>
-                <strong>Fair pricing without compromise</strong> — premium quality at
-                a price that does not punish you for caring about your gear.
-                Accessible to serious athletes at every level.
+                <strong>Premium quality at fair pricing</strong> — Premium quality fabric available
+                 at just one-third of most international brand pricing. It is a mid-premium Indian 
+                 gymwear brand and not a luxury gymwear brand. The motto of the brand is 
+                 “MADE TO BE GREAT”.
               </p>
             </div>
             <div className={styles.diffPoint}>
               <div className={styles.diffDot}></div>
               <p className={styles.diffText}>
-                <strong>Founder-led quality control</strong> — every product goes
-                through a standard set by someone who trains and demands the same
-                from their own gear.
+                <strong>Great service</strong> — Consistent care at every touchpoint. Just browse and
+                 buy your pick and have it delivered to your location. Connect easily through care@allofficials.in.
               </p>
             </div>
           </div>
@@ -157,10 +162,9 @@ export default function Page() {
               Who is AllOfficials gym wear designed for?
             </h3>
             <p className={styles.faqAnswer}>
-              AllOfficials is designed for men who train seriously — whether you are
-              a beginner building your first routine or an experienced athlete
-              pushing your limits daily. If you demand performance from your body,
-              your gear should match that demand.
+              The gym wear at Allofficials is designed for men who prioritize 
+              performance, comfort, and modern style. It is suited for both regular
+               gym goers and beginners.
             </p>
           </div>
           <div className={styles.faqItem}>
@@ -168,10 +172,10 @@ export default function Page() {
               What products does AllOfficials offer?
             </h3>
             <p className={styles.faqAnswer}>
-              AllOfficials currently offers compression T-shirts, gym joggers,
-              training shorts, and cut-offs. Each category is designed for a
-              specific training need and built with performance-grade fabrics that
-              hold up through intense use.
+              AllOfficials is a gym and activewear brand that offers a gym collection 
+              including compression wear, T-shirts, ribbed vests, shorts, joggers, jerseys,
+               baggy pants, sweatshirts, hoodies, etc. These are great for daily wear and 
+               intense workouts.
             </p>
           </div>
           <div className={styles.faqItem}>
@@ -179,10 +183,9 @@ export default function Page() {
               Does AllOfficials offer compression T-shirts for men?
             </h3>
             <p className={styles.faqAnswer}>
-              Yes. AllOfficials compression T-shirts are one of the core products in
-              the range. They are made with high-stretch, moisture-wicking fabric
-              designed to support your muscles, reduce fatigue, and keep you
-              comfortable through every workout.
+              Yes. They offer both short- as well as the long-sleeve compression T-shirts.
+               The collection also includes the N1 compression range catered to meet the
+                demands of high intensity training sessions..
             </p>
           </div>
           <div className={styles.faqItem}>
@@ -190,10 +193,10 @@ export default function Page() {
               What fabrics are used in AllOfficials gym wear?
             </h3>
             <p className={styles.faqAnswer}>
-              AllOfficials uses high-performance blended fabrics selected for four
-              key properties — stretch, breathability, moisture management, and
-              durability. Every fabric is tested for real training conditions, not
-              just comfort in everyday wear.
+              AllOfficials is a premium gymwear brand that uses quality fabrics like cotton,
+              spandex/ elastane, polyester, nylon, mesh fabrics, and French terry, as per the
+              product. These materials usually offer great moisture management, breathability,
+              and comfort
             </p>
           </div>
           <div className={styles.faqItem}>
@@ -201,10 +204,10 @@ export default function Page() {
               Is AllOfficials gym wear suitable for intense workouts?
             </h3>
             <p className={styles.faqAnswer}>
-              Absolutely. AllOfficials is built specifically for high-intensity
-              training — weightlifting, HIIT, functional fitness, and strength
-              training. The fabrics, stitching, and construction are all engineered
-              to hold up under maximum effort.
+              Yes. AllOfficials gym wear is specifically designed for intense workouts.
+               These apparels focused on features such as moisture-wicking fabrics, 
+               breathability, stretch, and fits focused on performance. The collections feature
+                options that support comfort and movement.
             </p>
           </div>
           <div className={styles.faqItem}>
@@ -213,10 +216,9 @@ export default function Page() {
               training?
             </h3>
             <p className={styles.faqAnswer}>
-              For strength training, the compression T-shirts and gym joggers work
-              best together. The compression tee supports your muscles through
-              heavy lifts while the joggers give you a full range of motion for
-              squats, deadlifts, and compound movements.
+              Compression T-shirts, stringers, stretchable joggers, and gym shorts
+               are suited well for strength training, offering freedom of movement,
+                comfort, and flexibility
             </p>
           </div>
           <div className={styles.faqItem}>
@@ -224,10 +226,10 @@ export default function Page() {
               Can AllOfficials gym wear be worn outside the gym?
             </h3>
             <p className={styles.faqAnswer}>
-              Yes. AllOfficials is designed with a clean, minimal aesthetic that
-              works both inside and outside the gym. The joggers and tees in
-              particular are built to transition easily from a training session to
-              everyday wear without looking out of place.
+              Yes. AllOfficials gym and active wear is designed for both casual
+              sessions as well as workouts. Versatile pieces including jerseys,
+              T-shirts, and ribbed vests are readily available. These are great for 
+              daily wear.
             </p>
           </div>
           <div className={styles.faqItem}>
@@ -235,10 +237,9 @@ export default function Page() {
               How do you choose the right AllOfficials gym wear?
             </h3>
             <p className={styles.faqAnswer}>
-              Start with your training style. If you run hot or do cardio-heavy
-              sessions, go for cut-offs or shorts with the compression tee. For
-              strength training, the jogger and compression tee combo is the most
-              popular choice. Check the size guide on the website for the best fit.
+              Choose the perfect gym wear as per your preferred fit, workout type, 
+              weather, comfort, and fabric. Compression wear is great for intense training. 
+              Shorts are for cardio. Strength workouts demand apparel like joggers.
             </p>
           </div>
         </div>
