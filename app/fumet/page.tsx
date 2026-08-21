@@ -64,21 +64,16 @@ export default function Page() {
           </div>
           <div style={{ paddingTop: '8px' }}>
             <p className={styles.whatBody}>
-              Fumet is a premium activewear brand built in India for the Indian
-              athlete. Every piece is designed to bridge the gap between
-              high-performance functionality and a clean, premium aesthetic — so
-              you look and feel your best whether you are in the gym, on the track,
-              or on the move.
+              Fumet is a premium activewear brand that specializes in compression gear, athletic apparel, and training wear designed for strength and movement.
               <br />
               <br />
-              Based in Hassan, Karnataka, Fumet was built with a deep understanding
-              of what Indian athletes actually need — gear that holds up through
-              intense workouts, fits Indian body types well, and is accessible
-              without cutting corners on quality.
+              The brand is built with a purpose of speed, movement, and strength during training sessions. The collection at Fumet is performance-driven, designed to hold up even during the most intense workout sessions.
               <br />
               <br />
-              Fumet is not just activewear. It is a statement that premium should
-              not mean imported, and performance should not mean unaffordable.
+              Fumet gym wear is also a great choice for casual evenings, outdoors, beach, and multiple spaces where you need to breathe comfort and unparalleled style.
+              <br />
+              <br />
+              Fumet is not just gym gear; it is a statement and a brand that’s one of the best and associated with compression gear, gym T-shirts, shorts, track pants, joggers, and other fitness apparel.
             </p>
           </div>
         </div>
@@ -104,33 +99,25 @@ export default function Page() {
             <div className={styles.diffPoint}>
               <div className={styles.diffDot}></div>
               <p className={styles.diffText}>
-                <strong>Locally rooted, globally standard</strong> — designed and
-                built in Hassan, Karnataka, Fumet meets international quality
-                benchmarks while staying grounded in Indian needs and values.
+                <strong>Performance-driven</strong> — Fumet is performance-oriented, suitable for training, with collections that include dry-fit track pants, compression T-shirts, performance-oriented T-shirts, shorts, etc.
               </p>
             </div>
             <div className={styles.diffPoint}>
               <div className={styles.diffDot}></div>
               <p className={styles.diffText}>
-                <strong>Premium without the premium price</strong> — every Fumet
-                product is priced to be accessible to serious athletes at every
-                stage, without compromising on fabric, construction, or fit.
+                <strong>Fulfills varied demands</strong> — These offer an athletic and sleek appearance with no complications. Collection goes beyond just traditional gym clothing. The track pants, regular T-shirts, polo T-shirts, and shorts make them great for both training and casual wear purposes.
               </p>
             </div>
             <div className={styles.diffPoint}>
               <div className={styles.diffDot}></div>
               <p className={styles.diffText}>
-                <strong>Fit for Indian bodies</strong> — sizing, cut, and
-                construction are all calibrated to Indian body types and climate,
-                not adapted from a Western template.
+                <strong>Premium collection at great price:</strong> — Available at competitive prices, you would love to spend on its collection. Multiple fit options and athletic and minimal styling benefit buyers with accessible price positioning.
               </p>
             </div>
             <div className={styles.diffPoint}>
               <div className={styles.diffDot}></div>
               <p className={styles.diffText}>
-                <strong>A physical store you can visit</strong> — unlike most D2C
-                brands, Fumet has a real store in Hassan where you can see, touch,
-                and try before you buy.
+                <strong>Suitable for all</strong> — Fumet collection suits different bodies differently with the best custom-made construction, cut, and sizing. Suitable for the Indian climate and body type, there is a huge collection for men.
               </p>
             </div>
           </div>
@@ -146,11 +133,7 @@ export default function Page() {
               Why Karthik P K Built Fumet
             </h2>
             <p className={styles.founderStatement}>
-              &quot;I built Fumet because I believed the Indian athlete deserved
-              better — not cheaper imports, not overpriced foreign labels, but
-              something built for us, by us. Fumet started in Hassan and I want it
-              to represent every athlete in this country who trains hard and
-              expects their gear to do the same.&quot;
+              Karthik P K built Fumet to make a more accessible, better, and functional gym wear clothing line. Fumet is beyond overpriced foreign labels or cheaper imports. The idea is to create and develop an active gym wear brand with clothing that is attractive, comfortable, and functional. It's special for every athlete in India who sees a companion in their gym wear.
             </p>
             <div className={styles.founderAttr}>
               <div className={styles.founderPhoto}></div>
@@ -179,37 +162,25 @@ export default function Page() {
           <div className={styles.faqItem}>
             <h3 className={styles.faqH3}>What is Fumet and where is it based?</h3>
             <p className={styles.faqAnswer}>
-              Fumet is a premium activewear brand founded by Karthik P K and based in
-              Hassan, Karnataka, India. It was built to offer Indian athletes
-              high-quality performance wear that fits well, lasts long, and is
-              priced fairly — without compromising on any front.
+              Based in Hassan (Karnataka), Fumet is an active gear and gym wear brand that is designed with an idea to create high-performance wear for athletes in India.
             </p>
           </div>
           <div className={styles.faqItem}>
             <h3 className={styles.faqH3}>Does Fumet have a physical store?</h3>
             <p className={styles.faqAnswer}>
-              Yes. Fumet has a store in Hassan, Karnataka where you can visit, try
-              on the products, and buy in person. This is one of the things that sets
-              Fumet apart from most activewear brands — you can actually
-              experience the product before purchasing.
+              Stores are located in Hassan, Karnataka, where you can visit in person and shop with confidence.
             </p>
           </div>
           <div className={styles.faqItem}>
             <h3 className={styles.faqH3}>Who is Fumet activewear designed for?</h3>
             <p className={styles.faqAnswer}>
-              Fumet is designed for Indian men and women who take their fitness
-              seriously and want activewear that keeps up. Whether you train at a
-              local gym, run outdoors, or work out at home, Fumet is built to
-              perform across all training environments.
+              Fumet is for gym enthusiasts who expect their activewear to work with them. It is made to be built around all kinds of training environments.
             </p>
           </div>
           <div className={styles.faqItem}>
             <h3 className={styles.faqH3}>What products does Fumet offer?</h3>
             <p className={styles.faqAnswer}>
-              Fumet offers a range of premium activewear including training
-              T-shirts, compression wear, joggers, shorts, and performance tops.
-              Each product is designed for specific training needs and built with
-              fabrics that prioritise comfort, stretch, and durability.
+              Fumet stocks and sells premium activewear. Collections include compression wear, training T-shirts, shorts, joggers, and performance tops. All products are designed to meet the demands of training. Fabrics are designed for stretch, comfort, and durability.
             </p>
           </div>
           <div className={styles.faqItem}>
@@ -217,11 +188,7 @@ export default function Page() {
               What fabrics does Fumet use in its activewear?
             </h3>
             <p className={styles.faqAnswer}>
-              Fumet uses high-performance fabric blends selected for four key
-              qualities — stretch, moisture management, breathability, and shape
-              retention. Every fabric choice is made with Indian climate and
-              training conditions in mind, not sourced from a generic global
-              catalogue.
+              The fabrics used in Fumet collections are high-performance. The best features include moisture management ability, stretch, shape retention, and breathability. Fabrics are designed to meet the demands of the Indian climate and buyers.
             </p>
           </div>
           <div className={styles.faqItem}>
@@ -229,19 +196,13 @@ export default function Page() {
               Is Fumet activewear suitable for intense gym workouts?
             </h3>
             <p className={styles.faqAnswer}>
-              Absolutely. Fumet activewear is built for high-intensity training —
-              weightlifting, functional fitness, HIIT, running, and everything in
-              between. The construction and materials are tested for performance
-              under real workout conditions, not just casual wear.
+              Fumet is built for high-intensity training including functional fitness, running, HIIT, weightlifting, and more.  The fabrics and the materials used are closely tested for performance under strict workout conditions as well as climate
             </p>
           </div>
           <div className={styles.faqItem}>
             <h3 className={styles.faqH3}>Does Fumet ship across India?</h3>
             <p className={styles.faqAnswer}>
-              Yes. Fumet ships pan-India so you can order from anywhere in the
-              country. If you are in or near Hassan, Karnataka, you also have the
-              option to visit the store and shop in person for the full Fumet
-              experience.
+              Yes, you may order from any part of the country.
             </p>
           </div>
           <div className={styles.faqItem}>
@@ -249,11 +210,7 @@ export default function Page() {
               How is Fumet different from other Indian activewear brands?
             </h3>
             <p className={styles.faqAnswer}>
-              Fumet is founder-led, locally rooted, and built specifically around
-              Indian athlete needs. It is not a white-label product or a cheaper
-              copy of a foreign brand. Every design and fabric decision is made
-              with the Indian body type, climate, and training culture in mind — and
-              backed by a physical store presence in Karnataka.
+              Fumet is locally rooted and caters to the demands of Indian athletes. The brand is not a cheap copy of Foreign products. It is original and built as per the body type of Indian buyers and the Indian climate.
             </p>
           </div>
         </div>
