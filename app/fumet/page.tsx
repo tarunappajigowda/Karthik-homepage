@@ -9,7 +9,6 @@ export default function Page() {
       <section className={styles.hero}>
         <div className={styles.heroWm}>FUMET</div>
         <div className={styles.heroTop}>
-          <div className={styles.heroLogoSlot}>Logo Here</div>
           <div className={styles.heroBadges}>
             <span className={styles.badgeLocation}>📍 Hassan, Karnataka</span>
             <a
@@ -60,7 +59,13 @@ export default function Page() {
             <p className={styles.secSubhead}>
               Premium activewear crafted for those who move with purpose.
             </p>
-            <div className={styles.whatImg}>Product Image Here</div>
+            <div className={styles.whatImg}>
+              <img
+                src="/resources/FumetLogo.png"
+                alt="Fumet"
+                className={styles.whatImgImg}
+              />
+            </div>
           </div>
           <div style={{ paddingTop: '8px' }}>
             <p className={styles.whatBody}>
@@ -136,7 +141,13 @@ export default function Page() {
               Karthik P K built Fumet to make a more accessible, better, and functional gym wear clothing line. Fumet is beyond overpriced foreign labels or cheaper imports. The idea is to create and develop an active gym wear brand with clothing that is attractive, comfortable, and functional. It's special for every athlete in India who sees a companion in their gym wear.
             </p>
             <div className={styles.founderAttr}>
-              <div className={styles.founderPhoto}></div>
+              <div className={styles.founderPhoto}>
+                <img
+                  src="/resources/About_Karthik_pk_image.png"
+                  alt="Karthik P K"
+                  className={styles.founderPhotoImg}
+                />
+              </div>
               <div>
                 <div className={styles.founderName}>Karthik P K</div>
                 <div className={styles.founderRole}>Founder, Fumet</div>

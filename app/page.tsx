@@ -66,7 +66,10 @@ export default function Home() {
           <div className="about-grid">
             <div className="about-left">
               <div className="about-top-left"><p>About</p></div>
-              <p className="about-body">I started my entrepreneurial journey with just ₹200 and absolutely no experience in e-commerce or the garment industry. Through constant learning, countless mistakes, and an unwillingness to quit, I turned challenges into opportunities for growth. Today, Allofficials have sold 10,000+ units across India and set trends that hundreds of competitors now follow. My mission is to build world-class products that are proudly made in India and accessible to everyone.</p>
+              <p className="about-body">My journey began with a small doorstep car accessories service, built on hands-on experience from the automotive industry.
+                 I entered e-commerce and apparel with no background in either, learning through mistakes and refusing to quit. 
+                 That period shaped ALLOFFICIALS and later FUMET, two brands made for different parts of the Indian market. 
+                 My mission today is to build products of world-class quality, proudly made in India, and prove great brands can be built from here.</p>
               <a href="#" className="about-cta">More About Me →</a>
             </div>
             <div className="about-right">

@@ -31,7 +31,7 @@ export default function Footer() {
           <div>
             <div className="fc-title">Connect</div>
             <div className="fc-links" style={{ display: 'flex', flexDirection: 'column', gap: '12px' }}>
-              <a href="https://instagram.com/karthikpk.kannada" target="_blank" rel="noreferrer">Instagram</a>
+              <a href="https://instagram.com/karthikpk.kannada" target="_blank" rel="noreferrer">Instagram (Creator)</a>
               <a href="https://linkedin.com/in/karthik-p-k-0a7a1524" target="_blank" rel="noreferrer">LinkedIn</a>
               <a href="https://instagram.com/mr.karthikpk" target="_blank" rel="noreferrer">Instagram</a>
               <Link href="/collaborations">Collaborations</Link>

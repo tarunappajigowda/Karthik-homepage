@@ -418,8 +418,23 @@
   height: 40px;
   border-radius: 50%;
   background: linear-gradient(135deg, #c8c0b4, #a09890);
-  flex-shrink: 0;
 }
+
+.founderPhotoImg {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.whatImgImg {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
 
 .founderName {
   font-size: 14px;

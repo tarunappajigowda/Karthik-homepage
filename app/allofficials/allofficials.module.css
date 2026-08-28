@@ -258,6 +258,14 @@
   text-transform: uppercase;
 }
 
+.whatImgImg {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
 .whatBody {
   font-size: 17px;
   color: #888888;
@@ -369,7 +377,13 @@
   height: 40px;
   border-radius: 50%;
   background: linear-gradient(135deg, #c8c0b4, #a09890);
-  flex-shrink: 0;
+}
+
+.founderPhotoImg {
+  width: 40px !important;
+  height: 40px !important;
+  border-radius: 50%;
+  object-fit: cover;
 }
 
 .founderName {
