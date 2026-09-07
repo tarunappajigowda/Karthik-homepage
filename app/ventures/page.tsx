@@ -51,7 +51,9 @@ export default function VenturesPage() {
             </div>
           </div>
           <div className={`${styles.vCardRight} ${styles.vcBgAo}`}>
-            <div className={styles.vCardImgPh}>AllOfficials — Brand Image</div>
+            <div className={styles.vCardImgPh}>
+              <img src="/resources/allofficials_brand_image.png" alt="AllOfficials Brand Image" className={styles.aoBrandImage} />
+            </div>
           </div>
         </div>
 
