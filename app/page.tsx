@@ -37,7 +37,7 @@ export default function Home() {
             </div>
           </div>
           <div className="hero-right">
-            <img src="/resources/Karthik_sir_main_image.png" alt="Karthik P K" className="hero-photo" />
+            <img src="public/resources/Karthik_pk_Home_image.png" alt="Karthik P K" className="hero-photo" />
             <div className="hero-right-overlay"></div>
             <div className="hero-right-overlay-right"></div>
             <div className="hero-right-overlay-bottom"></div>

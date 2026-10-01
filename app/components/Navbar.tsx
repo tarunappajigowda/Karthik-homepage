@@ -61,8 +61,8 @@ export default function Navbar() {
         {/* Links Menu Container */}
         <div className={`nav-menu ${isOpen ? 'active' : ''}`}>
           <Link href="/ventures" onClick={() => setIsOpen(false)}>Ventures</Link>
-          <Link href="/creator" onClick={() => setIsOpen(false)}>Creator</Link>
-          <Link href="/connect" onClick={() => setIsOpen(false)} className="cta-btn">Connect ↗</Link>
+          <Link href="/arts" onClick={() => setIsOpen(false)}>Arts</Link>
+          <Link href="/contact" onClick={() => setIsOpen(false)} className="cta-btn">Connect ↗</Link>
         </div>
       </nav>
 

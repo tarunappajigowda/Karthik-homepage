@@ -1,0 +1,687 @@
+@import url("https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400;500;600;700;800&display=swap");
+
+.page {
+  --dark: #111111;
+  --dark2: #1a1a1a;
+  --light: #f7f7f7;
+  --white: #ffffff;
+  --text: #111111;
+  --muted: #888888;
+  --border: #e4e4e4;
+  --border-dark: rgba(255, 255, 255, 0.09);
+
+  min-height: 100vh;
+
+  margin: 0;
+  padding: 0;
+
+  background: var(--white);
+  color: var(--text);
+
+  font-family:
+    "Instrument Sans",
+    Helvetica,
+    "Helvetica Neue",
+    Arial,
+    sans-serif;
+
+  overflow-x: hidden;
+
+  -webkit-font-smoothing: antialiased;
+}
+
+.page *,
+.page *::before,
+.page *::after {
+  box-sizing: border-box;
+}
+
+/* =========================================
+   NAVIGATION
+========================================= */
+
+.nav {
+  position: absolute;
+
+  top: 0;
+  left: 0;
+  right: 0;
+
+  z-index: 100;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  padding: 28px 56px;
+}
+
+.navLogo {
+  color: #fff;
+
+  font-size: 16px;
+  font-weight: 700;
+
+  text-decoration: none;
+}
+
+.navLinks {
+  display: flex;
+
+  align-items: center;
+
+  gap: 28px;
+}
+
+.navLinks a {
+  color: rgba(255, 255, 255, 0.5);
+
+  font-size: 14px;
+  font-weight: 500;
+
+  text-decoration: none;
+
+  transition:
+    color 0.2s ease;
+}
+
+.navLinks a:hover {
+  color: #fff;
+}
+
+.navCta {
+  background: rgba(255, 255, 255, 0.1);
+
+  border: 1px solid rgba(255, 255, 255, 0.2);
+
+  border-radius: 100px;
+
+  color: #fff !important;
+
+  padding: 9px 20px;
+
+  font-size: 13px !important;
+  font-weight: 600 !important;
+}
+
+/* =========================================
+   HERO
+========================================= */
+
+.hero {
+  position: relative;
+
+  overflow: hidden;
+
+  background: var(--dark);
+
+  padding: 150px 12%;
+}
+
+.heroWatermark {
+  position: absolute;
+
+  right: 0;
+  bottom: -10px;
+
+  color: rgba(255, 255, 255, 0.03);
+
+  font-size: clamp(60px, 12vw, 160px);
+
+  font-weight: 800;
+
+  letter-spacing: -3px;
+
+  line-height: 1;
+
+  white-space: nowrap;
+
+  pointer-events: none;
+}
+
+.heroLabel {
+  position: relative;
+
+  z-index: 2;
+
+  display: flex;
+  align-items: center;
+
+  gap: 8px;
+
+  margin-bottom: 20px;
+
+  color: rgba(255, 255, 255, 0.4);
+
+  font-size: 11px;
+
+  font-weight: 600;
+
+  letter-spacing: 2.5px;
+
+  line-height: 1;
+
+  text-transform: uppercase;
+}
+
+.heroLabel::before {
+  content: "✦";
+
+  color: #fff;
+
+  font-size: 9px;
+}
+
+.heroTitle {
+  position: relative;
+
+  z-index: 2;
+
+  margin: 0 0 24px;
+
+  color: #fff;
+
+  font-size: clamp(52px, 7vw, 88px);
+
+  font-weight: 800;
+
+  letter-spacing: -3px;
+
+  line-height: 1;
+}
+
+.heroDesc {
+  position: relative;
+
+  z-index: 2;
+
+  max-width: 520px;
+
+  margin: 0;
+
+  color: rgba(255, 255, 255, 0.45);
+
+  font-size: 18px;
+
+  line-height: 1.7;
+}
+
+/* =========================================
+   CONTACT MAIN
+========================================= */
+
+.contactMain {
+  background: var(--white);
+
+  padding: 88px 56px;
+}
+
+.formWrap {
+  max-width: 680px;
+
+  margin: 0 auto;
+}
+
+.formLabel {
+  display: flex;
+
+  align-items: center;
+
+  gap: 8px;
+
+  margin-bottom: 16px;
+
+  color: var(--muted);
+
+  font-size: 11px;
+
+  font-weight: 600;
+
+  letter-spacing: 2.5px;
+
+  text-transform: uppercase;
+}
+
+.formLabel::before {
+  content: "✦";
+
+  color: var(--text);
+
+  font-size: 9px;
+}
+
+.formTitle {
+  margin: 0 0 40px;
+
+  color: var(--text);
+
+  font-size: clamp(28px, 3.5vw, 44px);
+
+  font-weight: 800;
+
+  letter-spacing: -1.5px;
+
+  line-height: 1.1;
+}
+
+/* =========================================
+   FORM
+========================================= */
+
+.form {
+  width: 100%;
+}
+
+.formRow {
+  display: grid;
+
+  grid-template-columns: 1fr 1fr;
+
+  gap: 16px;
+
+  margin-bottom: 16px;
+}
+
+.field {
+  display: flex;
+
+  flex-direction: column;
+
+  gap: 8px;
+
+  margin-bottom: 16px;
+}
+
+.field label {
+  color: var(--text);
+
+  font-size: 13px;
+
+  font-weight: 600;
+}
+
+.field input,
+.field textarea,
+.field select {
+  width: 100%;
+
+  border: 1px solid var(--border);
+
+  border-radius: 8px;
+
+  outline: none;
+
+  background: var(--white);
+
+  color: var(--text);
+
+  padding: 14px 16px;
+
+  font-family:
+    "Instrument Sans",
+    Helvetica,
+    Arial,
+    sans-serif;
+
+  font-size: 15px;
+
+  transition:
+    border-color 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+.field input::placeholder,
+.field textarea::placeholder {
+  color: #aaa;
+}
+
+.field input:focus,
+.field textarea:focus,
+.field select:focus {
+  border-color: var(--text);
+
+  box-shadow: 0 0 0 1px var(--text);
+}
+
+.field textarea {
+  min-height: 150px;
+
+  resize: vertical;
+
+  line-height: 1.6;
+}
+
+/* =========================================
+   SUBMIT BUTTON
+========================================= */
+
+.formSubmit {
+  display: inline-flex;
+
+  align-items: center;
+  justify-content: center;
+
+  gap: 8px;
+
+  margin-top: 8px;
+
+  border: none;
+
+  border-radius: 100px;
+
+  background: var(--dark);
+
+  color: #fff;
+
+  padding: 15px 34px;
+
+  font-family:
+    "Instrument Sans",
+    Helvetica,
+    Arial,
+    sans-serif;
+
+  font-size: 14px;
+
+  font-weight: 600;
+
+  cursor: pointer;
+
+  transition:
+    background 0.2s ease,
+    transform 0.2s ease;
+}
+
+.formSubmit:hover {
+  background: #333;
+
+  transform: translateY(-1px);
+}
+
+.formSubmit:active {
+  transform: translateY(0);
+}
+
+/* =========================================
+   FOOTER
+========================================= */
+
+.footer {
+  overflow: hidden;
+
+  background: var(--dark);
+
+  border-top: 1px solid var(--border-dark);
+
+  padding: 64px 56px 0;
+}
+
+.footerTop {
+  display: grid;
+
+  grid-template-columns: 1.5fr 1fr 1fr;
+
+  gap: 60px;
+
+  padding-bottom: 56px;
+
+  border-bottom: 1px solid var(--border-dark);
+}
+
+.footerBrand {
+  margin-bottom: 8px;
+
+  color: #fff;
+
+  font-size: 20px;
+
+  font-weight: 700;
+}
+
+.footerTagline {
+  margin-bottom: 24px;
+
+  color: rgba(255, 255, 255, 0.35);
+
+  font-size: 13px;
+}
+
+.footerSocials {
+  display: flex;
+
+  gap: 10px;
+}
+
+.social {
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  width: 36px;
+  height: 36px;
+
+  border: 1px solid rgba(255, 255, 255, 0.12);
+
+  border-radius: 8px;
+
+  color: rgba(255, 255, 255, 0.5);
+
+  font-size: 12px;
+
+  font-weight: 700;
+
+  text-decoration: none;
+
+  transition:
+    border-color 0.2s ease,
+    color 0.2s ease;
+}
+
+.social:hover {
+  border-color: #fff;
+
+  color: #fff;
+}
+
+.footerColumnTitle {
+  margin-bottom: 20px;
+
+  color: rgba(255, 255, 255, 0.3);
+
+  font-size: 11px;
+
+  font-weight: 600;
+
+  letter-spacing: 2px;
+
+  text-transform: uppercase;
+}
+
+.footerLinks {
+  display: flex;
+
+  flex-direction: column;
+
+  gap: 12px;
+}
+
+.footerLinks a {
+  color: rgba(255, 255, 255, 0.45);
+
+  font-size: 14px;
+
+  text-decoration: none;
+
+  transition:
+    color 0.2s ease;
+}
+
+.footerLinks a:hover {
+  color: #fff;
+}
+
+/* =========================================
+   FOOTER WATERMARK
+========================================= */
+
+.footerWatermark {
+  color: rgba(255, 255, 255, 0.03);
+
+  font-size: clamp(48px, 12vw, 150px);
+
+  font-weight: 700;
+
+  letter-spacing: -3px;
+
+  line-height: 0.85;
+
+  white-space: nowrap;
+
+  pointer-events: none;
+}
+
+/* =========================================
+   FOOTER BOTTOM
+========================================= */
+
+.footerBottom {
+  display: flex;
+
+  align-items: center;
+
+  justify-content: space-between;
+
+  padding: 20px 0;
+
+  border-top: 1px solid var(--border-dark);
+}
+
+.footerCopyright,
+.footerUrl {
+  color: rgba(255, 255, 255, 0.2);
+
+  font-size: 12px;
+}
+
+/* =========================================
+   TABLET
+========================================= */
+
+@media (max-width: 900px) {
+  .nav {
+    padding: 24px 30px;
+  }
+
+  .navLinks {
+    gap: 18px;
+  }
+
+  .hero {
+    padding: 130px 30px 70px;
+  }
+
+  .contactMain {
+    padding: 70px 30px;
+  }
+
+  .footer {
+    padding: 50px 30px 0;
+  }
+
+  .footerTop {
+    grid-template-columns: 1fr 1fr;
+
+    gap: 40px;
+  }
+}
+
+/* =========================================
+   MOBILE
+========================================= */
+
+@media (max-width: 600px) {
+  .nav {
+    padding: 22px 20px;
+
+    align-items: flex-start;
+  }
+
+  .navLinks {
+    gap: 10px;
+  }
+
+  .navLinks > a:not(.navCta) {
+    display: none;
+  }
+
+  .navCta {
+    padding: 8px 15px;
+
+    font-size: 11px !important;
+  }
+
+  .hero {
+    padding: 120px 20px 60px;
+  }
+
+  .heroTitle {
+    font-size: clamp(46px, 14vw, 70px);
+
+    letter-spacing: -2px;
+  }
+
+  .heroDesc {
+    font-size: 15px;
+
+    line-height: 1.7;
+  }
+
+  .contactMain {
+    padding: 60px 20px;
+  }
+
+  .formTitle {
+    margin-bottom: 32px;
+  }
+
+  .formRow {
+    grid-template-columns: 1fr;
+
+    gap: 0;
+
+    margin-bottom: 0;
+  }
+
+  .field input,
+  .field textarea,
+  .field select {
+    font-size: 16px;
+  }
+
+  .formSubmit {
+    width: 100%;
+  }
+
+  .footer {
+    padding: 50px 20px 0;
+  }
+
+  .footerTop {
+    grid-template-columns: 1fr;
+
+    gap: 40px;
+  }
+
+  .footerWatermark {
+    font-size: 22vw;
+  }
+
+  .footerBottom {
+    flex-direction: column;
+
+    align-items: flex-start;
+
+    gap: 8px;
+  }
+}
