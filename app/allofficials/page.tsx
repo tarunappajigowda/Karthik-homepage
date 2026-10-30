@@ -38,7 +38,7 @@ export default function Page() {
             </p>
             <div className={styles.whatImg}>
               <img
-                src="/resources/AllOfficialsLogo.png"
+                src="/resources/AllofficialsLogo.png"
                 alt="AllOfficials"
                 className={styles.whatImgImg}
               />
