@@ -230,6 +230,8 @@ footer { background: var(--dark); padding: 100px 12%;; overflow: hidden; }
   .hero {
     display: grid;
     grid-template-columns: 1fr;
+    padding-left: 10px;  
+    padding-right: 10px;
     min-height: auto;
     gap: 0;
   }
@@ -268,7 +270,7 @@ footer { background: var(--dark); padding: 100px 12%;; overflow: hidden; }
     width: 100%;
     height: auto;
     min-height: 0;
-    padding: 0 6% 40px !important;
+    padding: 0 6% 20px !important;
     box-sizing: border-box;
     overflow: hidden;
   }
