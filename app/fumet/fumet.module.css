@@ -667,3 +667,410 @@
   font-size: 12px;
   color: rgba(255, 255, 255, 0.2);
 }
+
+
+
+
+/* ==========================================
+   MOBILE RESPONSIVE DESIGN
+   ========================================== */
+
+@media screen and (max-width: 768px) {
+
+  /* GLOBAL */
+  .main {
+    width: 100%;
+    max-width: 100%;
+    overflow-x: clip;
+  }
+
+  /* HERO SECTION */
+  .hero {
+    padding: 120px 6% 56px !important;
+    min-height: auto;
+  }
+
+  .heroTop {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+    margin-bottom: 36px;
+  }
+
+  .heroLogoSlot {
+    width: 125px;
+    height: 46px;
+  }
+
+  .heroBadges {
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 8px;
+  }
+
+  .badgeLive,
+  .badgeLocation,
+  .badgeVisit {
+    font-size: 10px;
+    padding: 6px 10px;
+    letter-spacing: 0.8px;
+  }
+
+  .heroH1 {
+    font-size: clamp(42px, 10.5vw, 68px);
+    line-height: 1;
+    letter-spacing: -2px;
+    margin-bottom: 24px;
+    overflow-wrap: break-word;
+  }
+
+  .heroIntro {
+    font-size: 16px;
+    line-height: 1.7;
+    max-width: 100%;
+  }
+
+  .heroWm {
+    font-size: 17vw;
+    letter-spacing: -2px;
+    bottom: 0;
+    line-height: 0.9;
+  }
+
+  /* STORE INFORMATION STRIP */
+  .storeStrip {
+    padding: 28px 6%;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 22px;
+  }
+
+  .storeLeft {
+    width: 100%;
+    gap: 16px;
+    align-items: flex-start;
+  }
+
+  .storeIcon {
+    width: 42px;
+    height: 42px;
+    font-size: 18px;
+    flex-shrink: 0;
+  }
+
+  .storeTitle {
+    font-size: 15px;
+    line-height: 1.5;
+  }
+
+  .storeAddr {
+    font-size: 13px;
+    line-height: 1.6;
+    overflow-wrap: anywhere;
+  }
+
+  .storeRight {
+    width: 100%;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+  .storeBadge,
+  .storeLink {
+    font-size: 10px;
+    padding: 7px 12px;
+  }
+
+  /* COMMON SECTION SPACING */
+  .sec {
+    padding: 56px 6% !important;
+  }
+
+  .secLabel {
+    font-size: 10px;
+    letter-spacing: 2px;
+    margin-bottom: 14px;
+  }
+
+  .secH2 {
+    font-size: clamp(28px, 7.5vw, 40px);
+    line-height: 1.12;
+    letter-spacing: -1px;
+    margin-bottom: 14px;
+  }
+
+  .secSubhead {
+    font-size: 15px;
+    line-height: 1.7;
+    margin-bottom: 30px;
+  }
+
+  /* WHAT IS SECTION */
+  .whatGrid {
+    grid-template-columns: 1fr;
+    gap: 24px;
+  }
+
+  .whatImg {
+    width: 100%;
+    margin-top: 0;
+    aspect-ratio: 4 / 3;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+
+  .whatImgImg {
+    display: block;
+    width: 100%;
+    height: auto;
+    aspect-ratio: 4 / 3;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+
+  .whatBody {
+    font-size: 15px;
+    line-height: 1.8;
+  }
+
+  /* DIFFERENTIATION SECTION */
+  .diffGrid {
+    grid-template-columns: 1fr;
+    gap: 32px;
+  }
+
+  .diffBody {
+    font-size: 15px;
+    line-height: 1.75;
+    margin-top: 16px;
+  }
+
+  .diffPoints {
+    width: 100%;
+  }
+
+  .diffPoint {
+    grid-template-columns: 16px minmax(0, 1fr);
+    gap: 12px;
+    padding: 20px 0;
+  }
+
+  .diffPoint:first-child {
+    padding-top: 0;
+  }
+
+  .diffText {
+    font-size: 14px;
+    line-height: 1.75;
+  }
+
+  /* FOUNDER SECTION */
+  .founderInner {
+    grid-template-columns: 1fr;
+    gap: 24px;
+    max-width: 100%;
+  }
+
+  .founderLabel {
+    font-size: 10px;
+    letter-spacing: 2px;
+  }
+
+  .founderStatement {
+    font-size: clamp(21px, 5.8vw, 28px);
+    line-height: 1.45;
+    letter-spacing: -0.4px;
+    margin-bottom: 24px;
+  }
+
+  .founderAttr {
+    gap: 12px;
+    padding-top: 18px;
+  }
+
+  .founderPhoto {
+    width: 40px;
+    height: 40px;
+    flex-shrink: 0;
+  }
+
+  .founderPhotoImg {
+    width: 40px !important;
+    height: 40px !important;
+    flex-shrink: 0;
+  }
+
+  .founderName {
+    font-size: 14px;
+  }
+
+  .founderRole {
+    font-size: 12px;
+  }
+
+  .founderLink {
+    font-size: 14px;
+    margin-top: 20px;
+  }
+
+  /* FAQ SECTION */
+  .faqGrid {
+    grid-template-columns: 1fr;
+    gap: 12px;
+  }
+
+  .faqItem {
+    padding: 24px 20px;
+  }
+
+  .faqH3 {
+    font-size: 16px;
+    line-height: 1.4;
+    margin-bottom: 12px;
+  }
+
+  .faqAnswer {
+    font-size: 14px;
+    line-height: 1.75;
+  }
+
+  /* CTA SECTION */
+  .ctaStrip {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 28px;
+    padding: 52px 6% !important;
+  }
+
+  .ctaTitle {
+    font-size: clamp(30px, 8.5vw, 46px);
+    letter-spacing: -1px;
+    line-height: 1.1;
+    overflow-wrap: break-word;
+  }
+
+  .ctaBtns {
+    align-items: stretch;
+    width: 100%;
+    gap: 12px;
+  }
+
+  .btnWhite,
+  .btnGhost {
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+    justify-content: center;
+    padding: 15px 18px;
+    font-size: 14px;
+    text-align: center;
+    white-space: normal;
+  }
+
+  /* FOOTER */
+  .footer {
+    padding: 44px 6% 0 !important;
+  }
+
+  .footerTop {
+    grid-template-columns: 1fr;
+    gap: 32px;
+    padding-bottom: 36px;
+  }
+
+  .footerBrand {
+    font-size: 20px;
+  }
+
+  .footerTagline {
+    font-size: 13px;
+    line-height: 1.7;
+  }
+
+  .fcTitle {
+    margin-bottom: 16px;
+  }
+
+  .fcLinks {
+    gap: 14px;
+  }
+
+  .fcLinks a {
+    font-size: 14px;
+  }
+
+  .footerWm {
+    font-size: 13vw;
+    letter-spacing: -1px;
+    line-height: 0.9;
+  }
+
+  .footerBottom {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+    padding: 20px 0;
+  }
+
+  .fc {
+    font-size: 11px;
+    line-height: 1.6;
+  }
+}
+
+/* ==========================================
+   EXTRA SMALL PHONES
+   ========================================== */
+
+@media screen and (max-width: 380px) {
+
+  .hero {
+    padding: 110px 5% 44px !important;
+  }
+
+  .heroH1 {
+    font-size: 40px;
+    letter-spacing: -1.5px;
+  }
+
+  .heroIntro {
+    font-size: 15px;
+  }
+
+  .heroBadges {
+    gap: 6px;
+  }
+
+  .badgeLive,
+  .badgeLocation,
+  .badgeVisit {
+    font-size: 9px;
+    padding: 6px 8px;
+  }
+
+  .storeStrip,
+  .sec,
+  .ctaStrip,
+  .footer {
+    padding-left: 5% !important;
+    padding-right: 5% !important;
+  }
+
+  .sec {
+    padding-top: 44px !important;
+    padding-bottom: 44px !important;
+  }
+
+  .faqItem {
+    padding: 22px 16px;
+  }
+
+  .ctaStrip {
+    padding-top: 44px !important;
+    padding-bottom: 44px !important;
+  }
+
+  .btnWhite,
+  .btnGhost {
+    padding: 14px 16px;
+  }
+}

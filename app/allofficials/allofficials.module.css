@@ -617,3 +617,254 @@
   font-size: 12px;
   color: rgba(255, 255, 255, 0.2);
 }
+
+
+/* ==========================================
+   MOBILE RESPONSIVE DESIGN
+   ========================================== */
+
+@media screen and (max-width: 768px) {
+
+  /* GLOBAL */
+  .main {
+    width: 100%;
+    overflow-x: hidden;
+  }
+
+  /* NAVIGATION */
+  .nav {
+    padding: 20px 6%;
+    position: absolute;
+  }
+
+  .navLinks {
+    display: none;
+  }
+
+  .navLogo {
+    font-size: 16px;
+  }
+
+  /* HERO SECTION */
+  .hero {
+    padding: 130px 6% 64px;
+  }
+
+  .heroTop {
+    flex-direction: column;
+    gap: 24px;
+    margin-bottom: 40px;
+  }
+
+  .heroLogoSlot {
+    width: 130px;
+    height: 48px;
+  }
+
+  .heroBadges {
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+
+  .heroH1 {
+    font-size: clamp(44px, 11vw, 72px);
+    letter-spacing: -2px;
+    line-height: 0.98;
+    margin-bottom: 24px;
+    overflow-wrap: break-word;
+  }
+
+  .heroIntro {
+    font-size: 16px;
+    line-height: 1.7;
+    max-width: 100%;
+  }
+
+  .heroWm {
+    font-size: 18vw;
+    letter-spacing: -2px;
+    bottom: 0;
+  }
+
+  /* SECTION SPACING */
+  .sec {
+    padding: 56px 6%;
+  }
+
+  .secLabel {
+    font-size: 10px;
+    letter-spacing: 2px;
+    margin-bottom: 14px;
+  }
+
+  .secH2 {
+    font-size: clamp(28px, 8vw, 40px);
+    letter-spacing: -1px;
+    line-height: 1.12;
+  }
+
+  .secSubhead {
+    font-size: 15px;
+    line-height: 1.7;
+    margin-bottom: 32px;
+  }
+
+  /* WHAT IS SECTION */
+  .whatGrid {
+    grid-template-columns: 1fr;
+    gap: 24px;
+  }
+
+  .whatImg {
+    margin-top: 0;
+    aspect-ratio: 4 / 3;
+  }
+
+  .whatImgImg {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 4 / 3;
+    object-fit: cover;
+  }
+
+  .whatBody {
+    font-size: 15px;
+    line-height: 1.8;
+  }
+
+  /* DIFFERENTIATION */
+  .diffGrid {
+    grid-template-columns: 1fr;
+    gap: 32px;
+  }
+
+  .diffBody {
+    font-size: 15px;
+    line-height: 1.8;
+  }
+
+  .diffPoint {
+    grid-template-columns: 16px 1fr;
+    gap: 12px;
+    padding: 20px 0;
+  }
+
+  .diffText {
+    font-size: 14px;
+    line-height: 1.7;
+  }
+
+  /* FOUNDER SECTION */
+  .founderInner {
+    grid-template-columns: 1fr;
+    gap: 24px;
+  }
+
+  .founderStatement {
+    font-size: clamp(21px, 6vw, 28px);
+    line-height: 1.4;
+  }
+
+  /* FAQ */
+  .faqGrid {
+    grid-template-columns: 1fr;
+    gap: 12px;
+  }
+
+  .faqItem {
+    padding: 24px 20px;
+  }
+
+  .faqH3 {
+    font-size: 16px;
+  }
+
+  .faqAnswer {
+    font-size: 14px;
+    line-height: 1.7;
+  }
+
+  /* CTA SECTION */
+  .ctaStrip {
+    grid-template-columns: 1fr;
+    gap: 28px;
+    padding: 56px 6%;
+  }
+
+  .ctaTitle {
+    font-size: clamp(32px, 9vw, 48px);
+    letter-spacing: -1.5px;
+    line-height: 1.08;
+  }
+
+  .ctaBtns {
+    align-items: stretch;
+    width: 100%;
+    gap: 12px;
+  }
+
+  .btnWhite,
+  .btnGhost {
+    width: 100%;
+    box-sizing: border-box;
+    justify-content: center;
+    padding: 15px 20px;
+    white-space: normal;
+    text-align: center;
+  }
+
+  /* FOOTER */
+  .footer {
+    padding: 48px 6% 0;
+  }
+
+  .footerTop {
+    grid-template-columns: 1fr;
+    gap: 32px;
+    padding-bottom: 36px;
+  }
+
+  .footerBrand {
+    font-size: 20px;
+  }
+
+  .footerBottom {
+    flex-direction: column;
+    gap: 12px;
+    padding: 20px 0;
+  }
+
+  .footerWm {
+    font-size: 13vw;
+    letter-spacing: -1px;
+  }
+}
+
+/* SMALL MOBILE PHONES */
+@media screen and (max-width: 380px) {
+
+  .hero {
+    padding: 115px 5% 48px;
+  }
+
+  .heroH1 {
+    font-size: 42px;
+    letter-spacing: -1.5px;
+  }
+
+  .heroIntro {
+    font-size: 15px;
+  }
+
+  .sec {
+    padding: 44px 5%;
+  }
+
+  .ctaStrip {
+    padding: 44px 5%;
+  }
+
+  .faqItem {
+    padding: 22px 16px;
+  }
+}
