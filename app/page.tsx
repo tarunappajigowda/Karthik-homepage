@@ -30,7 +30,7 @@ export default function Home() {
         <section className="hero">
           <div className="hero-left">
             <h1 className="hero-h1">Karthik P K - Founder of Allofficials & Fumet</h1>
-            <p className="hero-desc">Bootstrapped founder behind AllOfficials and Fumet - two premium apparel brands built for India, made to be great.</p>
+            <p className="hero-desc">Bootstrapped founder behind ALLOFFICIALS and FUMET, with a long-term vision to build a House of Brands from India.</p>
             <div className="hero-btns">
               <a href="/ventures" className="btn-solid">Explore My Ventures →</a>
               <a href="#" className="btn-ghost">Read My Story</a>
@@ -66,7 +66,7 @@ export default function Home() {
           <div className="about-grid">
             <div className="about-left">
               <div className="about-top-left"><p>About</p></div>
-              <p className="about-body">My journey began with a small doorstep car accessories service, built on hands-on experience from the automotive industry. I entered e-commerce and apparel with no background in either, learning through mistakes and refusing to quit. That period shaped ALLOFFICIALS and later FUMET, two brands made for different parts of the Indian market. My mission today is to build products of world-class quality, proudly made in India, and prove great brands can be built from here.</p>
+              <p className="about-body">My journey began at 12, working in a car accessories shop while pursuing my education. From a childhood rooted in creativity to a career in the automotive industry, every experience shaped the entrepreneur I am today. In 2020, I founded ALLOFFICIALS, followed by FUMET in 2026. Today, I'm building beyond individual brands, with a long-term vision to create a House of Brands from India—driven by exceptional products, strong identities, and a commitment to building for the long run.</p>
             </div>
             <div className="about-right">
               <div className="about-heading"><h2>About Karthik P K</h2></div>
