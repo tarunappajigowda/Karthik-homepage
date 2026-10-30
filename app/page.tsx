@@ -37,7 +37,7 @@ export default function Home() {
             </div>
           </div>
           <div className="hero-right">
-            <img src="public/resources/Karthik_pk_Home_image.png" alt="Karthik P K" className="hero-photo" />
+            <img src="/resources/Karthik_pk_Home_image.png" alt="Karthik P K" className="hero-photo" />
             <div className="hero-right-overlay"></div>
             <div className="hero-right-overlay-right"></div>
             <div className="hero-right-overlay-bottom"></div>
@@ -67,7 +67,6 @@ export default function Home() {
             <div className="about-left">
               <div className="about-top-left"><p>About</p></div>
               <p className="about-body">My journey began with a small doorstep car accessories service, built on hands-on experience from the automotive industry. I entered e-commerce and apparel with no background in either, learning through mistakes and refusing to quit. That period shaped ALLOFFICIALS and later FUMET, two brands made for different parts of the Indian market. My mission today is to build products of world-class quality, proudly made in India, and prove great brands can be built from here.</p>
-              <a href="#" className="about-cta">More About Me →</a>
             </div>
             <div className="about-right">
               <div className="about-heading"><h2>About Karthik P K</h2></div>

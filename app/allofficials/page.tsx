@@ -151,9 +151,6 @@ export default function Page() {
                 <div className={styles.founderRole}>Founder, AllOfficials</div>
               </div>
             </div>
-            <Link href="/about" className={styles.founderLink}>
-              Read the Full Story →
-            </Link>
           </div>
         </div>
       </section>
